@@ -1,0 +1,30 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="main-body">
+    <div class="error-container">
+        <h1>Internal Server Error</h1>
+        <p>Something went wrong on our end. Please try again later.</p>
+        <a href="{{ url_for('index') }}" class="nav-button">Go Home</a>
+    </div>
+</div>
+
+<style>
+.error-container {
+    text-align: center;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.error-container h1 {
+    color: #e74c3c;
+    margin-bottom: 1rem;
+}
+
+.error-container p {
+    margin-bottom: 2rem;
+    color: #666;
+}
+</style>
+{% endblock %}

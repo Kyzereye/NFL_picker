@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <div class="header-container">
+        <nav class="nav-bar">
+            <!-- This is your modularized navigation bar -->
+            <a href="{{ url_for('season2023') }}" class="nav-button">2023</a>
+            <a href="{{ url_for('season2024') }}" class="nav-button">2024</a>
+            <a href="{{ url_for('season2025') }}" class="nav-button">2025</a>
+        </nav>
+    </div>
+
+    <!-- This is the placeholder where your unique page content will go -->
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>

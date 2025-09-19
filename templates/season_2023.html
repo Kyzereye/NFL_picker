@@ -1,0 +1,59 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="main-body">
+    <h1>2023 Season Games</h1>
+
+    <div id="week-buttons" style="margin-bottom: 1rem;">
+        {% for week in season_data %}
+            <button class="week-btn" onclick="showWeek({{ loop.index0 }})">Week {{ week.week }}</button>
+        {% endfor %}
+    </div>
+
+    <div id="weeks-container">
+        {% for week in season_data %}
+            <div class="week-games {% if not loop.first %}hidden{% endif %}" id="week-{{ loop.index0 }}">
+                <h2>Week {{ week.week }}</h2>
+                {% for game in week.games %}
+                    <div class="game-card">
+                        <h3 {% if game.favorite_won %}style="color: green;"{% endif %}>{{ game.matchup }}</h3>
+                        <p><strong>Favorite:</strong> {{ game.favorite }}</p>
+                        <p><strong>Winner:</strong> {{ game.winner }}</p>
+                        <h4>Moneyline Odds:</h4>
+                        <ul>
+                            {% for team, odds in game.moneyline_odds.items() %}
+                                <li>{{ team }}: {{ odds }}</li>
+                            {% endfor %}
+                        </ul>
+                        <p><strong>Odds Difference:</strong> {{ game.odds_difference }}</p>
+                    </div>
+                    <hr>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+// We need a small style block to define the `hidden` class for our JavaScript
+const style = document.createElement('style');
+style.textContent = `
+    .hidden {
+        display: none;
+    }
+`;
+document.head.append(style);
+
+function showWeek(index) {
+    // Hide all week game containers
+    document.querySelectorAll('.week-games').forEach(div => {
+        div.classList.add('hidden');
+    });
+
+    // Show the selected week
+    let selected = document.getElementById('week-' + index);
+    if (selected) {
+        selected.classList.remove('hidden');
+    }
+}
+</script>
+{% endblock %}

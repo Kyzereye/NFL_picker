@@ -1,0 +1,444 @@
+[
+  {
+    "season": "2025",
+    "week": 1,
+    "games": [
+      {
+        "matchup": "Dallas Cowboys @ Philadelphia Eagles",
+        "moneyline_odds": {
+          "Cowboys": "+250",
+          "Eagles": "-310"
+        },
+        "favorite": "Eagles",
+        "winner": "Eagles"
+      },
+      {
+        "matchup": "Kansas City Chiefs @ Los Angeles Chargers",
+        "moneyline_odds": {
+          "Chiefs": "-162",
+          "Chargers": "+136"
+        },
+        "favorite": "Chiefs",
+        "winner": "Chargers"
+      },
+      {
+        "matchup": "Pittsburgh Steelers @ New York Jets",
+        "moneyline_odds": {
+          "Steelers": "-154",
+          "Jets": "+130"
+        },
+        "favorite": "Steelers",
+        "winner": "Steelers"
+      },
+      {
+        "matchup": "Atlanta Falcons @ Tampa Bay Buccaneers",
+        "moneyline_odds": {
+          "Falcons": "+114",
+          "Buccaneers": "-134"
+        },
+        "favorite": "Buccaneers",
+        "winner": "Buccaneers"
+      },
+      {
+        "matchup": "Indianapolis Colts @ Miami Dolphins",
+        "moneyline_odds": {
+          "Colts": "+130",
+          "Dolphins": "-154"
+        },
+        "favorite": "Dolphins",
+        "winner": "Colts"
+      },
+      {
+        "matchup": "Cleveland Browns @ Cincinnati Bengals",
+        "moneyline_odds": {
+          "Browns": "+205",
+          "Bengals": "-250"
+        },
+        "favorite": "Bengals",
+        "winner": "Bengals"
+      },
+      {
+        "matchup": "New England Patriots @ Las Vegas Raiders",
+        "moneyline_odds": {
+          "Patriots": "-155",
+          "Raiders": "+130"
+        },
+        "favorite": "Patriots",
+        "winner": "Raiders"
+      },
+      {
+        "matchup": "Arizona Cardinals @ New Orleans Saints",
+        "moneyline_odds": {
+          "Cardinals": "-285",
+          "Saints": "+230"
+        },
+        "favorite": "Cardinals",
+        "winner": "Cardinals"
+      },
+      {
+        "matchup": "Carolina Panthers @ Jacksonville Jaguars",
+        "moneyline_odds": {
+          "Panthers": "+148",
+          "Jaguars": "-176"
+        },
+        "favorite": "Jaguars",
+        "winner": "Jaguars"
+      },
+      {
+        "matchup": "New York Giants @ Washington Commanders",
+        "moneyline_odds": {
+          "Giants": "+215",
+          "Commanders": "-265"
+        },
+        "favorite": "Commanders",
+        "winner": "Commanders"
+      },
+      {
+        "matchup": "Tennessee Titans @ Denver Broncos",
+        "moneyline_odds": {
+          "Titans": "+300",
+          "Broncos": "-380"
+        },
+        "favorite": "Broncos",
+        "winner": "Broncos"
+      },
+      {
+        "matchup": "San Francisco 49ers @ Seattle Seahawks",
+        "moneyline_odds": {
+          "49ers": "-136",
+          "Seahawks": "+116"
+        },
+        "favorite": "49ers",
+        "winner": "49ers"
+      },
+      {
+        "matchup": "Detroit Lions @ Green Bay Packers",
+        "moneyline_odds": {
+          "Lions": "+120",
+          "Packers": "-142"
+        },
+        "favorite": "Packers",
+        "winner": "Packers"
+      },
+      {
+        "matchup": "Houston Texans @ Los Angeles Rams",
+        "moneyline_odds": {
+          "Texans": "+115",
+          "Rams": "-135"
+        },
+        "favorite": "Rams",
+        "winner": "Rams"
+      },
+      {
+        "matchup": "Baltimore Ravens @ Buffalo Bills",
+        "moneyline_odds": {
+          "Ravens": "-102",
+          "Bills": "-116"
+        },
+        "favorite": "Bills",
+        "winner": "Bills"
+      },
+      {
+        "matchup": "Minnesota Vikings @ Chicago Bears",
+        "moneyline_odds": {
+          "Vikings": "-115",
+          "Bears": "+100"
+        },
+        "favorite": "Vikings",
+        "winner": "Vikings"
+      }
+    ]
+  },
+  {
+    "season": "2025",
+    "week": 2,
+    "games": [
+      {
+        "matchup": "Rams @ Titans",
+        "moneyline_odds": {
+          "Rams": "-260",
+          "Titans": "+215"
+        },
+        "favorite": "Rams",
+        "winner": "Rams"
+      },
+      {
+        "matchup": "Seahawks @ Steelers", 
+        "moneyline_odds": {
+          "Seahawks": "+130",
+          "Steelers": "-150"
+        },
+        "favorite": "Steelers",
+        "winner": "Seahawks"
+      },
+      {
+        "matchup": "Bills @ Jets",
+        "moneyline_odds": {
+          "Bills": "-320",
+          "Jets": "+260"
+        },
+        "favorite": "Bills",
+        "winner": "Bills"
+      },
+      {
+        "matchup": "Bears @ Lions",
+        "moneyline_odds": {
+          "Bears": "+210",
+          "Lions": "-250"
+        },
+        "favorite": "Lions",
+        "winner": "Lions"
+      },
+      {
+        "matchup": "Giants @ Cowboys",
+        "moneyline_odds": {
+          "Giants": "+215",
+          "Cowboys": "-260"
+        },
+        "favorite": "Cowboys",
+        "winner": "Cowboys"
+      },
+      {
+        "matchup": "Browns @ Ravens",
+        "moneyline_odds": {
+          "Browns": "+550",
+          "Ravens": "-900"
+        },
+        "favorite": "Ravens",
+        "winner": "Ravens"
+      },
+      {
+        "matchup": "49ers @ Saints",
+        "moneyline_odds": {
+          "49ers": "-230",
+          "Saints": "+195"
+        },
+        "favorite": "49ers",
+        "winner": "49ers"
+      },
+      {
+        "matchup": "Patriots @ Dolphins",
+        "moneyline_odds": {
+          "Patriots": "+100",
+          "Dolphins": "-120"
+        },
+        "favorite": "Dolphins",
+        "winner": "Patriots"
+      },
+      {
+        "matchup": "Jaguars @ Bengals",
+        "moneyline_odds": {
+          "Jaguars": "+155",
+          "Bengals": "-185"
+        },
+        "favorite": "Bengals",
+        "winner": "Bengals"
+      },
+      {
+        "matchup": "Panthers @ Cardinals",
+        "moneyline_odds": {
+          "Panthers": "+240",
+          "Cardinals": "-290"
+        },
+        "favorite": "Cardinals",
+        "winner": "Cardinals"
+      },
+      {
+        "matchup": "Broncos @ Colts",
+        "moneyline_odds": {
+          "Broncos": "+105",
+          "Colts": "-125"
+        },
+        "favorite": "Colts",
+        "winner": "Colts"
+      },
+      {
+        "matchup": "Eagles @ Chiefs",
+        "moneyline_odds": {
+          "Eagles": "+115",
+          "Chiefs": "-135"
+        },
+        "favorite": "Chiefs",
+        "winner": "Eagles"
+      },
+      {
+        "matchup": "Falcons @ Vikings",
+        "moneyline_odds": {
+          "Falcons": "+155",
+          "Vikings": "-185"
+        },
+        "favorite": "Vikings",
+        "winner": "Falcons"
+      },
+      {
+        "matchup": "Buccaneers @ Texans",
+        "moneyline_odds": {
+          "Buccaneers": "-105",
+          "Texans": "-115"
+        },
+        "favorite": "Texans",
+        "winner": "Buccaneers"
+      },
+      {
+        "matchup": "Chargers @ Raiders",
+        "moneyline_odds": {
+          "Chargers": "-145",
+          "Raiders": "+125"
+        },
+        "favorite": "Chargers",
+        "winner": "Chargers"
+      }
+    ]
+  },
+  {
+    "season": "2023",
+    "week": 3,
+    "games": [
+      {
+        "matchup": "Dolphins @ Bills",
+        "moneyline_odds": {
+          "Dolphins": "+550",
+          "Bills": "-900"
+        },
+        "favorite": "Bills",
+        "winner": ""
+      },
+      {
+        "matchup": "Jets @ Buccaneers",
+        "moneyline_odds": {
+          "Jets": "+230",
+          "Buccaneers": "-280"
+        },
+        "favorite": "Buccaneers",
+        "winner": ""
+      },
+      {
+        "matchup": "Colts @ Titans",
+        "moneyline_odds": {
+          "Colts": "-195",
+          "Titans": "+165"
+        },
+        "favorite": "Colts",
+        "winner": ""
+      },
+      {
+        "matchup": "Raiders @ Commanders",
+        "moneyline_odds": {
+          "Raiders": "+155",
+          "Commanders": "-185"
+        },
+        "favorite": "Commanders",
+        "winner": ""
+      },
+      {
+        "matchup": "Rams @ Eagles",
+        "moneyline_odds": {
+          "Rams": "+160",
+          "Eagles": "-190"
+        },
+        "favorite": "Eagles",
+        "winner": ""
+      },
+      {
+        "matchup": "Falcons @ Panthers",
+        "moneyline_odds": {
+          "Falcons": "-270",
+          "Panthers": "+220"
+        },
+        "favorite": "Falcons",
+        "winner": ""
+      },
+      {
+        "matchup": "Texans @ Jaguars",
+        "moneyline_odds": {
+          "Texans": "+105",
+          "Jaguars": "-125"
+        },
+        "favorite": "Jaguars",
+        "winner": ""
+      },
+      {
+        "matchup": "Packers @ Browns",
+        "moneyline_odds": {
+          "Packers": "-450",
+          "Browns": "+340"
+        },
+        "favorite": "Packers",
+        "winner": ""
+      },
+      {
+        "matchup": "Steelers @ Patriots",
+        "moneyline_odds": {
+          "Steelers": "-130",
+          "Patriots": "+110"
+        },
+        "favorite": "Patriots",
+        "winner": ""
+      },
+      {
+        "matchup": "Bengals @ Vikings",
+        "moneyline_odds": {
+          "Bengals": "+130",
+          "Vikings": "-150"
+        },
+        "favorite": "Vikings",
+        "winner": ""
+      },
+      {
+        "matchup": "Broncos @ Chargers",
+        "moneyline_odds": {
+          "Broncos": "+125",
+          "Chargers": "-145"
+        },
+        "favorite": "Chargers",
+        "winner": ""
+      },
+      {
+        "matchup": "Saints @ Seahawks",
+        "moneyline_odds": {
+          "Saints": "+300",
+          "Seahawks": "-400"
+        },
+        "favorite": "Seahawks",
+        "winner": ""
+      },
+      {
+        "matchup": "Cardinals @ 49ers",
+        "moneyline_odds": {
+          "Cardinals": "+105",
+          "49ers": "-125"
+        },
+        "favorite": "Cardinals",
+        "winner": ""
+      },
+      {
+        "matchup": "Cowboys @ Bears",
+        "moneyline_odds": {
+          "Cowboys": "-115",
+          "Bears": "-105"
+        },
+        "favorite": "Cowboys",
+        "winner": ""
+      },
+      {
+        "matchup": "Chiefs @ Giants",
+        "moneyline_odds": {
+          "Chiefs": "-290",
+          "Giants": "+240"
+        },
+        "favorite": "Chiefs",
+        "winner": ""
+      },
+      {
+        "matchup": "Lions @ Ravens",
+        "moneyline_odds": {
+          "Lions": "+200",
+          "Ravens": "-240"
+        },
+        "favorite": "Ravens",
+        "winner": ""
+      }
+    ]
+  }
+
+]

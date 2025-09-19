@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-09-18 10:59:14",
+  "element_findings": {
+    "Links with \"event\" in href": 112,
+    "Elements with \"Bills\" text": 15,
+    "Elements with \"Dolphins\" text": 15,
+    "Elements with odds patterns": 207,
+    "Divs with event classes": 140,
+    "Divs with game classes": 0,
+    "Divs with match classes": 0,
+    "Tables": 2,
+    "Table rows": 5,
+    "List items": 176
+  },
+  "pattern_findings": {
+    "Thursday Night Football": 2,
+    "Team @ Team patterns": 2,
+    "Team vs Team patterns": 25,
+    "Odds patterns": 4565,
+    "Event URLs": 145,
+    "Game time patterns": 38
+  }
+}

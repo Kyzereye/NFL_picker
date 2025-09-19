@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Odds Fetcher</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Historical NFL Odds Fetcher</h1>
+        <form id="oddsForm">
+            <!-- <label for="apiKey">API Key:</label>
+            <input type="text" id="apiKey" name="apiKey" required> -->
+
+            <label for="date">Date (UTC):</label>
+            <input type="datetime-local" id="date" name="date" required>
+
+            <button type="submit">Get Odds</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        const form = document.getElementById('oddsForm');
+        const resultDiv = document.getElementById('result');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            resultDiv.innerHTML = '<p style="text-align: center;">Fetching data...</p>';
+
+            const apiKey = form.elements['apiKey'].value;
+            let date = form.elements['date'].value;
+
+            // Convert local datetime to UTC format required by the API
+            const localDate = new Date(date);
+            date = localDate.toISOString();
+
+            try {
+                const response = await fetch('/get_odds', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ apiKey, date })
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    resultDiv.innerHTML = `<p class="error">Error: ${errorData.error}</p>`;
+                    return;
+                }
+
+                const data = await response.json();
+                resultDiv.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+            } catch (error) {
+                resultDiv.innerHTML = `<p class="error">An error occurred: ${error.message}</p>`;
+            }
+        });
+    </script>
+</body>
+</html>
