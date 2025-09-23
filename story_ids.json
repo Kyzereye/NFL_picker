@@ -1,0 +1,33 @@
+{
+  "2025": {
+    "season": "2025",
+    "description": "NFL 2025 Season ESPN Story IDs for betting pages",
+    "base_url_pattern": "https://www.espn.com/espn/betting/story/_/id/{story_id}/2025-nfl-week-{week}-schedule-odds-betting-point-spreads",
+    "weeks": {
+      "1": {
+        "story_id": "45758192",
+        "url": "https://www.espn.com/espn/betting/story/_/id/45758192/2025-nfl-week-1-schedule-odds-betting-point-spreads",
+        "games": 16,
+        "fpi_percentages_available": true
+      },
+      "2": {
+        "story_id": "46198325", 
+        "url": "https://www.espn.com/espn/betting/story/_/id/46198325/2025-nfl-week-2-schedule-odds-betting-point-spreads",
+        "games": 15,
+        "fpi_percentages_available": true
+      },
+      "3": {
+        "story_id": "46264468",
+        "url": "https://www.espn.com/espn/betting/story/_/id/46264468/2025-nfl-week-3-schedule-odds-betting-point-spreads", 
+        "games": 15,
+        "fpi_percentages_available": true
+      },
+      "4": {
+        "story_id": "46303232",
+        "url": "https://www.espn.com/espn/betting/story/_/id/46303232/2025-nfl-week-4-schedule-odds-betting-point-spreads",
+        "games": 16,
+        "fpi_percentages_available": true
+      }
+    }
+  }
+}
