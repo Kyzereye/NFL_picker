@@ -99,7 +99,7 @@ class NFLDataScraper:
             text = p_tag.get_text()
             
             # Check if paragraph contains both moneyline and FPI data
-            if 'Money line' in text and 'FPI favorite:' in text:
+            if ('Money line' in text or 'Money Line' in text) and 'FPI favorite:' in text:
                 game_data = self._extract_game_data(text)
                 if game_data:
                     all_game_data.append(game_data)
@@ -117,13 +117,37 @@ class NFLDataScraper:
             if fpi_match:
                 game_data['FPI Favorite'] = fpi_match.group(1).strip()
             
-            # Extract moneyline data
-            moneyline_pattern = re.compile(r'([A-Za-z\d\s\']{2,})\s+\(([-+]\d+)\)')
-            matches = moneyline_pattern.findall(text)
+            # Extract FPI percentage - handle multiple formats
+            # Format 1: "66.4% probability to win outright"
+            fpi_percentage_pattern1 = re.compile(r'(\d+\.?\d*)%\s+probability\s+to\s+win\s+(?:outright|the\s+game\s+outright)')
+            fpi_percentage_match1 = fpi_percentage_pattern1.search(text)
             
-            if matches:
+            # Format 2: "66.4% to win outright"
+            fpi_percentage_pattern2 = re.compile(r'(\d+\.?\d*)%\s+to\s+win\s+outright')
+            fpi_percentage_match2 = fpi_percentage_pattern2.search(text)
+            
+            if fpi_percentage_match1:
+                game_data['FPI Percentage'] = float(fpi_percentage_match1.group(1))
+            elif fpi_percentage_match2:
+                game_data['FPI Percentage'] = float(fpi_percentage_match2.group(1))
+            
+            # Extract moneyline data - handle both formats
+            # Format 1: "Team (-300), Team (+250)" 
+            moneyline_pattern1 = re.compile(r'([A-Za-z\d\s\']{2,})\s+\(([-+]\d+)\)')
+            matches1 = moneyline_pattern1.findall(text)
+            
+            # Format 2: "Team -300, Team +250"
+            moneyline_pattern2 = re.compile(r'([A-Za-z\d\s\']{2,})\s+([-+]\d+)')
+            matches2 = moneyline_pattern2.findall(text)
+            
+            if matches1:
                 odds_data = {}
-                for team, odds in matches:
+                for team, odds in matches1:
+                    odds_data[team.strip()] = odds.strip()
+                game_data['Money Line'] = odds_data
+            elif matches2:
+                odds_data = {}
+                for team, odds in matches2:
                     odds_data[team.strip()] = odds.strip()
                 game_data['Money Line'] = odds_data
             
@@ -165,15 +189,43 @@ class ScrapingManager:
     @staticmethod
     def create_2025_config() -> ScrapeConfig:
         """Create configuration for 2025 season scraping"""
+        # Load story IDs from JSON file
+        story_ids = ScrapingManager.load_story_ids("2025")
+        
         return ScrapeConfig(
             season="2025",
-            weeks=[4],  # Currently configured for week 4
+            weeks=[4],  # Default to week 4, can be overridden
             base_url_pattern="https://www.espn.com/espn/betting/story/_/id/{story_id}/2025-nfl-week-{week}-schedule-odds-betting-point-spreads",
-            output_file="data/nfl_2025_week4.json",
-            story_ids={
-                4: "46303232"  # Week 4 story ID
-            }
+            output_file="data/nfl_2025.json",  # Always use main file
+            story_ids=story_ids
         )
+    
+    @staticmethod
+    def load_story_ids(season: str) -> Dict[int, str]:
+        """Load story IDs from JSON file"""
+        try:
+            with open('story_ids.json', 'r') as f:
+                data = json.load(f)
+            
+            if season not in data:
+                logger.warning(f"No story IDs found for season {season}")
+                return {}
+            
+            # Convert string keys to integers and extract story IDs
+            story_ids = {}
+            for week_str, week_data in data[season]['weeks'].items():
+                week_num = int(week_str)
+                story_ids[week_num] = week_data['story_id']
+            
+            logger.info(f"Loaded story IDs for {len(story_ids)} weeks in {season}")
+            return story_ids
+            
+        except FileNotFoundError:
+            logger.error("story_ids.json file not found")
+            return {}
+        except Exception as e:
+            logger.error(f"Error loading story IDs: {e}")
+            return {}
     
     @staticmethod
     def create_config_from_urls(season: str, urls: List[str], output_file: str) -> ScrapeConfig:
@@ -210,16 +262,85 @@ class ScrapingManager:
         season_data = scraper.scrape_season()
         
         if season_data:
-            success = save_json_file(season_data, config.output_file)
+            # If output file is the main 2025 file, update it in place
+            if config.output_file == "data/nfl_2025.json":
+                success = ScrapingManager._update_main_file(season_data, config.weeks)
+            else:
+                success = save_json_file(season_data, config.output_file)
+            
             if success:
-                logger.info(f"Successfully saved data to {config.output_file}")
+                logger.info(f"Successfully updated data in {config.output_file}")
                 return True
             else:
-                logger.error(f"Failed to save data to {config.output_file}")
+                logger.error(f"Failed to update data in {config.output_file}")
                 return False
         else:
             logger.error("No data was scraped")
             return False
+    
+    @staticmethod
+    def _update_main_file(new_data: List[Dict[str, Any]], weeks: List[int]) -> bool:
+        """Update the main 2025 file with new data for specific weeks, preserving existing winners"""
+        try:
+            # Load existing main file
+            with open("data/nfl_2025.json", 'r') as f:
+                main_data = json.load(f)
+            
+            # Update specific weeks
+            for new_week in new_data:
+                week_num = new_week['week']
+                for i, existing_week in enumerate(main_data):
+                    if existing_week['week'] == week_num:
+                        # Preserve existing winners and other data
+                        ScrapingManager._merge_week_data(existing_week, new_week)
+                        logger.info(f"Updated week {week_num} in main file (preserving winners)")
+                        break
+                else:
+                    # Week not found, add it
+                    main_data.append(new_week)
+                    logger.info(f"Added week {week_num} to main file")
+            
+            # Save updated main file
+            with open("data/nfl_2025.json", 'w') as f:
+                json.dump(main_data, f, indent=2)
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"Error updating main file: {e}")
+            return False
+    
+    @staticmethod
+    def _merge_week_data(existing_week: Dict[str, Any], new_week: Dict[str, Any]) -> None:
+        """Merge new week data with existing data, preserving winners and other important fields"""
+        # Update basic fields
+        existing_week['season'] = new_week['season']
+        existing_week['week'] = new_week['week']
+        
+        # Create a mapping of existing games by matchup for quick lookup
+        existing_games = {game['matchup']: game for game in existing_week['games']}
+        
+        # Update games with new data while preserving winners
+        for new_game in new_week['games']:
+            matchup = new_game['matchup']
+            if matchup in existing_games:
+                # Preserve existing winner and favorite_won
+                existing_game = existing_games[matchup]
+                winner = existing_game.get('winner', '')
+                favorite_won = existing_game.get('favorite_won', False)
+                
+                # Update with new data
+                existing_game.update(new_game)
+                
+                # Restore preserved fields
+                existing_game['winner'] = winner
+                existing_game['favorite_won'] = favorite_won
+            else:
+                # New game, add it
+                existing_week['games'].append(new_game)
+        
+        # Sort games by odds difference
+        existing_week['games'].sort(key=lambda x: x.get('odds_difference', 0), reverse=True)
 
 def main():
     """Main function for running scraper as standalone script"""

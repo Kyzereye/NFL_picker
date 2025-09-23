@@ -35,6 +35,7 @@ class Game:
     moneyline_odds: Dict[str, str]
     favorite: str
     winner: str = ""
+    fpi_percentage: float = 0.0  # FPI win probability percentage
     odds_difference: int = field(init=False)
     favorite_won: bool = field(init=False)
     
@@ -78,6 +79,7 @@ class Game:
             'moneyline_odds': self.moneyline_odds,
             'favorite': self.favorite,
             'winner': self.winner,
+            'fpi_percentage': self.fpi_percentage,
             'odds_difference': self.odds_difference,
             'favorite_won': self.favorite_won
         }
@@ -145,7 +147,8 @@ class Season:
                     matchup=game_data['matchup'],
                     moneyline_odds=game_data['moneyline_odds'],
                     favorite=game_data['favorite'],
-                    winner=game_data.get('winner', '')
+                    winner=game_data.get('winner', ''),
+                    fpi_percentage=game_data.get('fpi_percentage', 0.0)
                 )
                 week.add_game(game)
             
@@ -166,6 +169,7 @@ class GameDataProcessor:
         for game in raw_data_list:
             fpi_favorite_string = game.get('FPI Favorite', '').strip()
             moneyline_teams = list(game.get('Money Line', {}).keys())
+            fpi_percentage = game.get('FPI Percentage', 0.0)
             
             # Extract favorite name
             favorite_name = GameDataProcessor._extract_favorite_name(fpi_favorite_string)
@@ -178,7 +182,8 @@ class GameDataProcessor:
                 matchup=matchup,
                 moneyline_odds=game.get('Money Line', {}),
                 favorite=favorite_name,
-                winner=""  # Left blank for manual entry
+                winner="",  # Left blank for manual entry
+                fpi_percentage=fpi_percentage
             )
             
             cleaned_games.append(game_obj.to_dict())

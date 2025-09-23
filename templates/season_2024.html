@@ -20,6 +20,9 @@
                         <h3 {% if game.favorite_won %}style="color: green;"{% endif %}>{{ game.matchup }}</h3>
                         <p><strong>Favorite:</strong> {{ game.favorite }}</p>
                         <p><strong>Winner:</strong> {{ game.winner }}</p>
+                        {% if game.fpi_percentage > 0 %}
+                        <p><strong>FPI Win Probability:</strong> {{ "%.1f"|format(game.fpi_percentage) }}%</p>
+                        {% endif %}
                         <h4>Moneyline Odds:</h4>
                         <ul>
                             {% for team, odds in game.moneyline_odds.items() %}

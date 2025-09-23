@@ -117,13 +117,15 @@ class MultiSourceScraper:
         
         # Scrape ESPN (if story_id available)
         try:
-            # For week 4, we have the story ID
-            if week == 4:
+            # Load story IDs from JSON file
+            story_ids = self._load_story_ids(season)
+            
+            if week in story_ids:
                 espn_config = UnifiedScrapeConfig(
                     source=DataSource.ESPN,
                     season=season,
                     week=week,
-                    story_ids={week: "46303232"},
+                    story_ids={week: story_ids[week]},
                     output_file=f"espn_{season}_week{week}.json"
                 )
                 espn_scraper = UnifiedScraper(espn_config)
@@ -151,7 +153,33 @@ class MultiSourceScraper:
         }
         
         return save_json_file(combined_data, output_file)
-
+    
+    def _load_story_ids(self, season: str) -> Dict[int, str]:
+        """Load story IDs from JSON file"""
+        try:
+            import json
+            with open('story_ids.json', 'r') as f:
+                data = json.load(f)
+            
+            if season not in data:
+                logger.warning(f"No story IDs found for season {season}")
+                return {}
+            
+            # Convert string keys to integers and extract story IDs
+            story_ids = {}
+            for week_str, week_data in data[season]['weeks'].items():
+                week_num = int(week_str)
+                story_ids[week_num] = week_data['story_id']
+            
+            return story_ids
+            
+        except FileNotFoundError:
+            logger.error("story_ids.json file not found")
+            return {}
+        except Exception as e:
+            logger.error(f"Error loading story IDs: {e}")
+            return {}
+    
 def create_draftkings_scraper_config() -> UnifiedScrapeConfig:
     """Create a configuration for DraftKings scraping"""
     return UnifiedScrapeConfig(

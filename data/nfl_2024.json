@@ -10,7 +10,8 @@
           "Chiefs": "-135"
         },
         "favorite": "Chiefs",
-        "winner": "Kansas City Chiefs"
+        "winner": "Kansas City Chiefs",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Green Bay Packers @ Philadelphia Eagles",
@@ -19,7 +20,8 @@
           "Eagles": "-125"
         },
         "favorite": "Eagles",
-        "winner": "Philadelphia Eagles"
+        "winner": "Philadelphia Eagles",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Pittsburgh Steelers @ Atlanta Falcons",
@@ -28,7 +30,8 @@
           "Falcons": "-135"
         },
         "favorite": "Falcons",
-        "winner": "Pittsburgh Steelers"
+        "winner": "Pittsburgh Steelers",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Arizona Cardinals @ Buffalo Bills",
@@ -37,7 +40,8 @@
           "Bills": "-275"
         },
         "favorite": "Bills",
-        "winner": "Buffalo Bills"
+        "winner": "Buffalo Bills",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Tennessee Titans @ Chicago Bears",
@@ -46,7 +50,8 @@
           "Bears": "-195"
         },
         "favorite": "Bears",
-        "winner": "Chicago Bears"
+        "winner": "Chicago Bears",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New England Patriots @ Cincinnati Bengals",
@@ -55,7 +60,8 @@
           "Bengals": "-375"
         },
         "favorite": "Bengals",
-        "winner": "New England Patriots"
+        "winner": "New England Patriots",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Houston Texans @ Indianapolis Colts",
@@ -64,7 +70,8 @@
           "Colts": "-125"
         },
         "favorite": "Colts",
-        "winner": "Houston Texans"
+        "winner": "Houston Texans",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Jacksonville Jaguars @ Miami Dolphins",
@@ -73,7 +80,8 @@
           "Dolphins": "-150"
         },
         "favorite": "Dolphins",
-        "winner": "Miami Dolphins"
+        "winner": "Miami Dolphins",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Carolina Panthers @ New Orleans Saints",
@@ -82,7 +90,8 @@
           "Saints": "-195"
         },
         "favorite": "Saints",
-        "winner": "New Orleans Saints"
+        "winner": "New Orleans Saints",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Minnesota Vikings @ New York Giants",
@@ -91,7 +100,8 @@
           "Giants": "-120"
         },
         "favorite": "Giants",
-        "winner": "Minnesota Vikings"
+        "winner": "Minnesota Vikings",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Las Vegas Raiders @ Los Angeles Chargers",
@@ -100,7 +110,8 @@
           "Chargers": "-140"
         },
         "favorite": "Chargers",
-        "winner": "Los Angeles Chargers"
+        "winner": "Los Angeles Chargers",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Denver Broncos @ Seattle Seahawks",
@@ -109,7 +120,8 @@
           "Seahawks": "-195"
         },
         "favorite": "Seahawks",
-        "winner": "Seattle Seahawks"
+        "winner": "Seattle Seahawks",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Dallas Cowboys @ Cleveland Browns",
@@ -118,7 +130,8 @@
           "Browns": "-120"
         },
         "favorite": "Browns",
-        "winner": "Dallas Cowboys"
+        "winner": "Dallas Cowboys",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Washington Commanders @ Tampa Bay Buccaneers",
@@ -127,7 +140,8 @@
           "Buccaneers": "-195"
         },
         "favorite": "Buccaneers",
-        "winner": "Tampa Bay Buccaneers"
+        "winner": "Tampa Bay Buccaneers",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Rams @ Detroit Lions",
@@ -136,7 +150,8 @@
           "Lions": "-145"
         },
         "favorite": "Lions",
-        "winner": "Detroit Lions"
+        "winner": "Detroit Lions",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Jets @ San Francisco 49ers",
@@ -145,7 +160,8 @@
           "49ers": "-240"
         },
         "favorite": "49ers",
-        "winner": "San Francisco 49ers"
+        "winner": "San Francisco 49ers",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -161,7 +177,8 @@
         },
         "favorite": "Bills",
         "winner": "Buffalo Bills",
-        "score": "31-10"
+        "score": "31-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Las Vegas Raiders @ Baltimore Ravens",
@@ -171,7 +188,8 @@
         },
         "favorite": "Ravens",
         "winner": "Las Vegas Raiders",
-        "score": "26-23"
+        "score": "26-23",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Chargers @ Carolina Panthers",
@@ -181,7 +199,8 @@
         },
         "favorite": "Chargers",
         "winner": "Los Angeles Chargers",
-        "score": "26-3"
+        "score": "26-3",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New Orleans Saints @ Dallas Cowboys",
@@ -191,7 +210,8 @@
         },
         "favorite": "Saints",
         "winner": "New Orleans Saints",
-        "score": "44-19"
+        "score": "44-19",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Tampa Bay Buccaneers @ Detroit Lions",
@@ -201,7 +221,8 @@
         },
         "favorite": "Buccaneers",
         "winner": "Tampa Bay Buccaneers",
-        "score": "20-16"
+        "score": "20-16",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Indianapolis Colts @ Green Bay Packers",
@@ -211,7 +232,8 @@
         },
         "favorite": "Packers",
         "winner": "Green Bay Packers",
-        "score": "16-10"
+        "score": "16-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Cleveland Browns @ Jacksonville Jaguars",
@@ -221,7 +243,8 @@
         },
         "favorite": "Browns",
         "winner": "Cleveland Browns",
-        "score": "18-13"
+        "score": "18-13",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "San Francisco 49ers @ Minnesota Vikings",
@@ -231,7 +254,8 @@
         },
         "favorite": "49ers",
         "winner": "San Francisco 49ers",
-        "score": "41-23"
+        "score": "41-23",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Seattle Seahawks @ New England Patriots",
@@ -241,7 +265,8 @@
         },
         "favorite": "Patriots",
         "winner": "New England Patriots",
-        "score": "20-6"
+        "score": "20-6",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Jets @ Tennessee Titans",
@@ -251,7 +276,8 @@
         },
         "favorite": "Titans",
         "winner": "Tennessee Titans",
-        "score": "26-10"
+        "score": "26-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Giants @ Washington Commanders",
@@ -261,7 +287,8 @@
         },
         "favorite": "Commanders",
         "winner": "Washington Commanders",
-        "score": "23-15"
+        "score": "23-15",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Rams @ Arizona Cardinals",
@@ -271,7 +298,8 @@
         },
         "favorite": "Cardinals",
         "winner": "Arizona Cardinals",
-        "score": "41-10"
+        "score": "41-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Pittsburgh Steelers @ Denver Broncos",
@@ -281,7 +309,8 @@
         },
         "favorite": "Steelers",
         "winner": "Pittsburgh Steelers",
-        "score": "13-6"
+        "score": "13-6",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Cincinnati Bengals @ Kansas City Chiefs",
@@ -291,7 +320,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Kansas City Chiefs",
-        "score": "26-25"
+        "score": "26-25",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Chicago Bears @ Houston Texans",
@@ -301,7 +331,8 @@
         },
         "favorite": "Bears",
         "winner": "Houston Texans",
-        "score": "19-13"
+        "score": "19-13",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Atlanta Falcons @ Philadelphia Eagles",
@@ -311,7 +342,8 @@
         },
         "favorite": "Falcons",
         "winner": "Atlanta Falcons",
-        "score": "22-21"
+        "score": "22-21",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -327,7 +359,8 @@
         },
         "favorite": "Patriots",
         "winner": "New York Jets",
-        "score": "24-3"
+        "score": "24-3",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Giants @ Cleveland Browns",
@@ -337,7 +370,8 @@
         },
         "favorite": "Browns",
         "winner": "Cleveland Browns",
-        "score": "20-10"
+        "score": "20-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Chicago Bears @ Indianapolis Colts",
@@ -347,7 +381,8 @@
         },
         "favorite": "Colts",
         "winner": "Indianapolis Colts",
-        "score": "21-16"
+        "score": "21-16",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Houston Texans @ Minnesota Vikings",
@@ -357,7 +392,8 @@
         },
         "favorite": "Texans",
         "winner": "Houston Texans",
-        "score": "34-7"
+        "score": "34-7",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Philadelphia Eagles @ New Orleans Saints",
@@ -367,7 +403,8 @@
         },
         "favorite": "Eagles",
         "winner": "Philadelphia Eagles",
-        "score": "15-12"
+        "score": "15-12",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Chargers @ Pittsburgh Steelers",
@@ -377,7 +414,8 @@
         },
         "favorite": "Steelers",
         "winner": "Pittsburgh Steelers",
-        "score": "20-10"
+        "score": "20-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Denver Broncos @ Tampa Bay Buccaneers",
@@ -387,7 +425,8 @@
         },
         "favorite": "Buccaneers",
         "winner": "Tampa Bay Buccaneers",
-        "score": "16-10"
+        "score": "16-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Green Bay Packers @ Tennessee Titans",
@@ -397,7 +436,8 @@
         },
         "favorite": "Packers",
         "winner": "Green Bay Packers",
-        "score": "23-16"
+        "score": "23-16",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Carolina Panthers @ Las Vegas Raiders",
@@ -407,7 +447,8 @@
         },
         "favorite": "Raiders",
         "winner": "Las Vegas Raiders",
-        "score": "27-24"
+        "score": "27-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Miami Dolphins @ Seattle Seahawks",
@@ -417,7 +458,8 @@
         },
         "favorite": "Seahawks",
         "winner": "Seattle Seahawks",
-        "score": "24-3"
+        "score": "24-3",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Detroit Lions @ Arizona Cardinals",
@@ -427,7 +469,8 @@
         },
         "favorite": "Lions",
         "winner": "Detroit Lions",
-        "score": "31-21"
+        "score": "31-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Baltimore Ravens @ Dallas Cowboys",
@@ -437,7 +480,8 @@
         },
         "favorite": "Cowboys",
         "winner": "Baltimore Ravens",
-        "score": "28-25"
+        "score": "28-25",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "San Francisco 49ers @ Los Angeles Rams",
@@ -447,7 +491,8 @@
         },
         "favorite": "49ers",
         "winner": "Los Angeles Rams",
-        "score": "27-24"
+        "score": "27-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Kansas City Chiefs @ Atlanta Falcons",
@@ -457,7 +502,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Kansas City Chiefs",
-        "score": "30-21"
+        "score": "30-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Jacksonville Jaguars @ Buffalo Bills",
@@ -467,7 +513,8 @@
         },
         "favorite": "Bills",
         "winner": "Buffalo Bills",
-        "score": "38-14"
+        "score": "38-14",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Washington Commanders @ Cincinnati Bengals",
@@ -477,7 +524,8 @@
         },
         "favorite": "Bengals",
         "winner": "Cincinnati Bengals",
-        "score": "23-21"
+        "score": "23-21",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -493,7 +541,8 @@
         },
         "favorite": "Cowboys",
         "winner": "Dallas Cowboys",
-        "score": "20-15"
+        "score": "20-15",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New Orleans Saints @ Atlanta Falcons",
@@ -503,7 +552,8 @@
         },
         "favorite": "Falcons",
         "winner": "Atlanta Falcons",
-        "score": "26-24"
+        "score": "26-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Rams @ Chicago Bears",
@@ -513,7 +563,8 @@
         },
         "favorite": "Bears",
         "winner": "Chicago Bears",
-        "score": "24-18"
+        "score": "24-18",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Minnesota Vikings @ Green Bay Packers",
@@ -523,7 +574,8 @@
         },
         "favorite": "Packers",
         "winner": "Minnesota Vikings",
-        "score": "31-29"
+        "score": "31-29",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Pittsburgh Steelers @ Indianapolis Colts",
@@ -533,7 +585,8 @@
         },
         "favorite": "Colts",
         "winner": "Indianapolis Colts",
-        "score": "27-24"
+        "score": "27-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Denver Broncos @ New York Jets",
@@ -543,7 +596,8 @@
         },
         "favorite": "Jets",
         "winner": "Denver Broncos",
-        "score": "10-9"
+        "score": "10-9",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Philadelphia Eagles @ Tampa Bay Buccaneers",
@@ -553,7 +607,8 @@
         },
         "favorite": "Buccaneers",
         "winner": "Tampa Bay Buccaneers",
-        "score": "33-16"
+        "score": "33-16",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Cincinnati Bengals @ Carolina Panthers",
@@ -563,7 +618,8 @@
         },
         "favorite": "Bengals",
         "winner": "Cincinnati Bengals",
-        "score": "34-24"
+        "score": "34-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Jacksonville Jaguars @ Houston Texans",
@@ -573,7 +629,8 @@
         },
         "favorite": "Texans",
         "winner": "Houston Texans",
-        "score": "24-20"
+        "score": "24-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Washington Commanders @ Arizona Cardinals",
@@ -583,7 +640,8 @@
         },
         "favorite": "Cardinals",
         "winner": "Washington Commanders",
-        "score": "42-14"
+        "score": "42-14",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New England Patriots @ San Francisco 49ers",
@@ -593,7 +651,8 @@
         },
         "favorite": "49ers",
         "winner": "San Francisco 49ers",
-        "score": "30-13"
+        "score": "30-13",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Cleveland Browns @ Las Vegas Raiders",
@@ -603,7 +662,8 @@
         },
         "favorite": "Raiders",
         "winner": "Las Vegas Raiders",
-        "score": "20-16"
+        "score": "20-16",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Kansas City Chiefs @ Los Angeles Chargers",
@@ -613,7 +673,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Kansas City Chiefs",
-        "score": "17-10"
+        "score": "17-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Buffalo Bills @ Baltimore Ravens",
@@ -623,7 +684,8 @@
         },
         "favorite": "Bills",
         "winner": "Baltimore Ravens",
-        "score": "35-10"
+        "score": "35-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Tennessee Titans @ Miami Dolphins",
@@ -633,7 +695,8 @@
         },
         "favorite": "Titans",
         "winner": "Tennessee Titans",
-        "score": "31-12"
+        "score": "31-12",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Seattle Seahawks @ Detroit Lions",
@@ -643,7 +706,8 @@
         },
         "favorite": "Lions",
         "winner": "Detroit Lions",
-        "score": "42-29"
+        "score": "42-29",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -659,7 +723,8 @@
         },
         "favorite": "Falcons",
         "winner": "Atlanta Falcons",
-        "score": "20-17"
+        "score": "20-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Jets @ Minnesota Vikings",
@@ -669,7 +734,8 @@
         },
         "favorite": "Vikings",
         "winner": "Minnesota Vikings",
-        "score": "30-23"
+        "score": "30-23",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Carolina Panthers @ Chicago Bears",
@@ -679,7 +745,8 @@
         },
         "favorite": "Bears",
         "winner": "Chicago Bears",
-        "score": "27-13"
+        "score": "27-13",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Buffalo Bills @ Houston Texans",
@@ -689,7 +756,8 @@
         },
         "favorite": "Texans",
         "winner": "Buffalo Bills",
-        "score": "32-21"
+        "score": "32-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Indianapolis Colts @ Jacksonville Jaguars",
@@ -699,7 +767,8 @@
         },
         "favorite": "Jaguars",
         "winner": "Indianapolis Colts",
-        "score": "28-25"
+        "score": "28-25",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Cleveland Browns @ Washington Commanders",
@@ -709,7 +778,8 @@
         },
         "favorite": "Commanders",
         "winner": "Washington Commanders",
-        "score": "33-28"
+        "score": "33-28",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Miami Dolphins @ New England Patriots",
@@ -719,7 +789,8 @@
         },
         "favorite": "Patriots",
         "winner": "New England Patriots",
-        "score": "21-14"
+        "score": "21-14",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Baltimore Ravens @ Cincinnati Bengals",
@@ -729,7 +800,8 @@
         },
         "favorite": "Ravens",
         "winner": "Baltimore Ravens",
-        "score": "27-13"
+        "score": "27-13",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Arizona Cardinals @ San Francisco 49ers",
@@ -739,7 +811,8 @@
         },
         "favorite": "49ers",
         "winner": "San Francisco 49ers",
-        "score": "35-24"
+        "score": "35-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Las Vegas Raiders @ Denver Broncos",
@@ -749,7 +822,8 @@
         },
         "favorite": "Broncos",
         "winner": "Denver Broncos",
-        "score": "21-18"
+        "score": "21-18",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Green Bay Packers @ Los Angeles Rams",
@@ -759,7 +833,8 @@
         },
         "favorite": "Packers",
         "winner": "Green Bay Packers",
-        "score": "20-17"
+        "score": "20-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Giants @ Seattle Seahawks",
@@ -769,7 +844,8 @@
         },
         "favorite": "Seahawks",
         "winner": "Seattle Seahawks",
-        "score": "27-24"
+        "score": "27-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Dallas Cowboys @ Pittsburgh Steelers",
@@ -779,7 +855,8 @@
         },
         "favorite": "Steelers",
         "winner": "Pittsburgh Steelers",
-        "score": "21-14"
+        "score": "21-14",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New Orleans Saints @ Kansas City Chiefs",
@@ -789,7 +866,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Kansas City Chiefs",
-        "score": "24-20"
+        "score": "24-20",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -805,7 +883,8 @@
         },
         "favorite": "Vikings",
         "winner": "Minnesota Vikings",
-        "score": "28-10"
+        "score": "28-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Giants @ Philadelphia Eagles",
@@ -815,7 +894,8 @@
         },
         "favorite": "Eagles",
         "winner": "Philadelphia Eagles",
-        "score": "34-17"
+        "score": "34-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Kansas City Chiefs @ Denver Broncos",
@@ -825,7 +905,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Kansas City Chiefs",
-        "score": "21-17"
+        "score": "21-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Green Bay Packers @ Carolina Panthers",
@@ -835,7 +916,8 @@
         },
         "favorite": "Packers",
         "winner": "Green Bay Packers",
-        "score": "27-20"
+        "score": "27-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Buffalo Bills @ Jacksonville Jaguars",
@@ -845,7 +927,8 @@
         },
         "favorite": "Bills",
         "winner": "Buffalo Bills",
-        "score": "44-14"
+        "score": "44-14",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New England Patriots @ Miami Dolphins",
@@ -855,7 +938,8 @@
         },
         "favorite": "Dolphins",
         "winner": "Miami Dolphins",
-        "score": "17-12"
+        "score": "17-12",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Indianapolis Colts @ Tennessee Titans",
@@ -865,7 +949,8 @@
         },
         "favorite": "Titans",
         "winner": "Tennessee Titans",
-        "score": "30-10"
+        "score": "30-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Atlanta Falcons @ New Orleans Saints",
@@ -875,7 +960,8 @@
         },
         "favorite": "Saints",
         "winner": "Atlanta Falcons",
-        "score": "17-14"
+        "score": "17-14",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Seattle Seahawks @ Los Angeles Rams",
@@ -885,7 +971,8 @@
         },
         "favorite": "Rams",
         "winner": "Los Angeles Rams",
-        "score": "36-30"
+        "score": "36-30",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "San Francisco 49ers @ Tampa Bay Buccaneers",
@@ -895,7 +982,8 @@
         },
         "favorite": "49ers",
         "winner": "San Francisco 49ers",
-        "score": "28-24"
+        "score": "28-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Houston Texans @ Jacksonville Jaguars",
@@ -905,7 +993,8 @@
         },
         "favorite": "Jaguars",
         "winner": "Houston Texans",
-        "score": "24-21"
+        "score": "24-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Baltimore Ravens @ Pittsburgh Steelers",
@@ -915,7 +1004,8 @@
         },
         "favorite": "Steelers",
         "winner": "Steelers",
-        "score": "28-20"
+        "score": "28-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Detroit Lions @ Las Vegas Raiders",
@@ -925,7 +1015,8 @@
         },
         "favorite": "Lions",
         "winner": "Detroit Lions",
-        "score": "27-16"
+        "score": "27-16",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Chicago Bears @ New York Jets",
@@ -935,7 +1026,8 @@
         },
         "favorite": "Bears",
         "winner": "Chicago Bears",
-        "score": "21-17"
+        "score": "21-17",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -951,7 +1043,8 @@
         },
         "favorite": "Ravens",
         "winner": "Baltimore Ravens",
-        "score": "27-24"
+        "score": "27-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Chargers @ Arizona Cardinals",
@@ -961,7 +1054,8 @@
         },
         "favorite": "Chargers",
         "winner": "Los Angeles Chargers",
-        "score": "28-21"
+        "score": "28-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Jacksonville Jaguars @ New England Patriots",
@@ -971,7 +1065,8 @@
         },
         "favorite": "Jaguars",
         "winner": "Jacksonville Jaguars",
-        "score": "30-14"
+        "score": "30-14",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Buffalo Bills @ Tennessee Titans",
@@ -981,7 +1076,8 @@
         },
         "favorite": "Bills",
         "winner": "Buffalo Bills",
-        "score": "34-12"
+        "score": "34-12",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Cleveland Browns @ Cincinnati Bengals",
@@ -991,7 +1087,8 @@
         },
         "favorite": "Bengals",
         "winner": "Cincinnati Bengals",
-        "score": "27-20"
+        "score": "27-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Green Bay Packers @ Houston Texans",
@@ -1001,7 +1098,8 @@
         },
         "favorite": "Packers",
         "winner": "Green Bay Packers",
-        "score": "21-16"
+        "score": "21-16",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Minnesota Vikings @ Detroit Lions",
@@ -1011,7 +1109,8 @@
         },
         "favorite": "Vikings",
         "winner": "Detroit Lions",
-        "score": "28-27"
+        "score": "28-27",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Atlanta Falcons @ Seattle Seahawks",
@@ -1021,7 +1120,8 @@
         },
         "favorite": "Falcons",
         "winner": "Atlanta Falcons",
-        "score": "23-20"
+        "score": "23-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Indianapolis Colts @ Miami Dolphins",
@@ -1031,7 +1131,8 @@
         },
         "favorite": "Colts",
         "winner": "Indianapolis Colts",
-        "score": "27-21"
+        "score": "27-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Giants @ Philadelphia Eagles",
@@ -1041,7 +1142,8 @@
         },
         "favorite": "Eagles",
         "winner": "Philadelphia Eagles",
-        "score": "24-17"
+        "score": "24-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Washington Commanders @ Carolina Panthers",
@@ -1051,7 +1153,8 @@
         },
         "favorite": "Commanders",
         "winner": "Washington Commanders",
-        "score": "27-10"
+        "score": "27-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Rams @ Las Vegas Raiders",
@@ -1061,7 +1164,8 @@
         },
         "favorite": "Rams",
         "winner": "Los Angeles Rams",
-        "score": "30-27"
+        "score": "30-27",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "San Francisco 49ers @ Kansas City Chiefs",
@@ -1071,7 +1175,8 @@
         },
         "favorite": "49ers",
         "winner": "San Francisco 49ers",
-        "score": "24-21"
+        "score": "24-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Pittsburgh Steelers @ New York Jets",
@@ -1081,7 +1186,8 @@
         },
         "favorite": "Jets",
         "winner": "New York Jets",
-        "score": "28-20"
+        "score": "28-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Tampa Bay Buccaneers @ Baltimore Ravens",
@@ -1091,7 +1197,8 @@
         },
         "favorite": "Ravens",
         "winner": "Baltimore Ravens",
-        "score": "27-24"
+        "score": "27-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Arizona Cardinals @ Los Angeles Chargers",
@@ -1101,7 +1208,8 @@
         },
         "favorite": "Chargers",
         "winner": "Los Angeles Chargers",
-        "score": "28-14"
+        "score": "28-14",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -1117,7 +1225,8 @@
         },
         "favorite": "Browns",
         "winner": "Cleveland Browns",
-        "score": "23-20"
+        "score": "23-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Minnesota Vikings @ Detroit Lions",
@@ -1127,7 +1236,8 @@
         },
         "favorite": "Vikings",
         "winner": "Detroit Lions",
-        "score": "27-22"
+        "score": "27-22",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Atlanta Falcons @ Miami Dolphins",
@@ -1137,7 +1247,8 @@
         },
         "favorite": "Dolphins",
         "winner": "Miami Dolphins",
-        "score": "35-14"
+        "score": "35-14",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Denver Broncos @ Green Bay Packers",
@@ -1147,7 +1258,8 @@
         },
         "favorite": "Packers",
         "winner": "Green Bay Packers",
-        "score": "23-10"
+        "score": "23-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Jets @ Indianapolis Colts",
@@ -1157,7 +1269,8 @@
         },
         "favorite": "Colts",
         "winner": "Indianapolis Colts",
-        "score": "29-26"
+        "score": "29-26",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Carolina Panthers @ Jacksonville Jaguars",
@@ -1167,7 +1280,8 @@
         },
         "favorite": "Jaguars",
         "winner": "Jacksonville Jaguars",
-        "score": "21-20"
+        "score": "21-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Chicago Bears @ New York Giants",
@@ -1177,7 +1291,8 @@
         },
         "favorite": "Bears",
         "winner": "Chicago Bears",
-        "score": "23-17"
+        "score": "23-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Philadelphia Eagles @ New Orleans Saints",
@@ -1187,7 +1302,8 @@
         },
         "favorite": "Saints",
         "winner": "New Orleans Saints",
-        "score": "28-24"
+        "score": "28-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Las Vegas Raiders @ Las Angeles Rams",
@@ -1197,7 +1313,8 @@
         },
         "favorite": "Rams",
         "winner": "Los Angeles Rams",
-        "score": "34-21"
+        "score": "34-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Seattle Seahawks @ San Francisco 49ers",
@@ -1207,7 +1324,8 @@
         },
         "favorite": "49ers",
         "winner": "San Francisco 49ers",
-        "score": "30-10"
+        "score": "30-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Chargers @ Dallas Cowboys",
@@ -1217,7 +1335,8 @@
         },
         "favorite": "Cowboys",
         "winner": "Dallas Cowboys",
-        "score": "27-20"
+        "score": "27-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Tennessee Titans @ Buffalo Bills",
@@ -1227,7 +1346,8 @@
         },
         "favorite": "Bills",
         "winner": "Buffalo Bills",
-        "score": "35-10"
+        "score": "35-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Miami Dolphins @ Washington Commanders",
@@ -1237,7 +1357,8 @@
         },
         "favorite": "Commanders",
         "winner": "Washington Commanders",
-        "score": "20-17"
+        "score": "20-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Kansas City Chiefs @ Pittsburgh Steelers",
@@ -1247,7 +1368,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Kansas City Chiefs",
-        "score": "23-20"
+        "score": "23-20",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -1263,7 +1385,8 @@
         },
         "favorite": "Falcons",
         "winner": "Atlanta Falcons",
-        "score": "20-17"
+        "score": "20-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Cleveland Browns @ Los Angeles Chargers",
@@ -1273,7 +1396,8 @@
         },
         "favorite": "Chargers",
         "winner": "Los Angeles Chargers",
-        "score": "27-24"
+        "score": "27-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Giants @ Washington Commanders",
@@ -1283,7 +1407,8 @@
         },
         "favorite": "Commanders",
         "winner": "Washington Commanders",
-        "score": "23-20"
+        "score": "23-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Tennessee Titans @ New England Patriots",
@@ -1293,7 +1418,8 @@
         },
         "favorite": "Titans",
         "winner": "Tennessee Titans",
-        "score": "31-21"
+        "score": "31-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Cincinnati Bengals @ Las Vegas Raiders",
@@ -1303,7 +1429,8 @@
         },
         "favorite": "Bengals",
         "winner": "Cincinnati Bengals",
-        "score": "33-24"
+        "score": "33-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Chicago Bears @ Arizona Cardinals",
@@ -1313,7 +1440,8 @@
         },
         "favorite": "Cardinals",
         "winner": "Cardinals",
-        "score": "27-23"
+        "score": "27-23",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Philadelphia Eagles @ Jacksonville Jaguars",
@@ -1323,7 +1451,8 @@
         },
         "favorite": "Eagles",
         "winner": "Philadelphia Eagles",
-        "score": "41-21"
+        "score": "41-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Seattle Seahawks @ Los Angeles Rams",
@@ -1333,7 +1462,8 @@
         },
         "favorite": "Rams",
         "winner": "Los Angeles Rams",
-        "score": "28-17"
+        "score": "28-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Green Bay Packers @ Detroit Lions",
@@ -1343,7 +1473,8 @@
         },
         "favorite": "Lions",
         "winner": "Detroit Lions",
-        "score": "35-32"
+        "score": "35-32",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Minnesota Vikings @ Indianapolis Colts",
@@ -1353,7 +1484,8 @@
         },
         "favorite": "Vikings",
         "winner": "Minnesota Vikings",
-        "score": "26-17"
+        "score": "26-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Kansas City Chiefs @ Tampa Bay Buccaneers",
@@ -1363,7 +1495,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Kansas City Chiefs",
-        "score": "34-10"
+        "score": "34-10",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -1379,7 +1512,8 @@
         },
         "favorite": "Cardinals",
         "winner": "Arizona Cardinals",
-        "score": "31-17"
+        "score": "31-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Baltimore Ravens @ Denver Broncos",
@@ -1389,7 +1523,8 @@
         },
         "favorite": "Ravens",
         "winner": "Baltimore Ravens",
-        "score": "28-7"
+        "score": "28-7",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Atlanta Falcons @ Dallas Cowboys",
@@ -1399,7 +1534,8 @@
         },
         "favorite": "Falcons",
         "winner": "Dallas Cowboys",
-        "score": "26-24"
+        "score": "26-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Buffalo Bills @ Miami Dolphins",
@@ -1409,7 +1545,8 @@
         },
         "favorite": "Bills",
         "winner": "Buffalo Bills",
-        "score": "35-20"
+        "score": "35-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Green Bay Packers @ New York Jets",
@@ -1419,7 +1556,8 @@
         },
         "favorite": "Jets",
         "winner": "Jets",
-        "score": "21-20"
+        "score": "21-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Chargers @ Cleveland Browns",
@@ -1429,7 +1567,8 @@
         },
         "favorite": "Chargers",
         "winner": "Los Angeles Chargers",
-        "score": "24-16"
+        "score": "24-16",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Giants @ New England Patriots",
@@ -1439,7 +1578,8 @@
         },
         "favorite": "Patriots",
         "winner": "New England Patriots",
-        "score": "27-10"
+        "score": "27-10",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Jacksonville Jaguars @ Houston Texans",
@@ -1449,7 +1589,8 @@
         },
         "favorite": "Jaguars",
         "winner": "Jacksonville Jaguars",
-        "score": "28-24"
+        "score": "28-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Las Vegas Raiders @ Cincinnati Bengals",
@@ -1459,7 +1600,8 @@
         },
         "favorite": "Bengals",
         "winner": "Cincinnati Bengals",
-        "score": "31-28"
+        "score": "31-28",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Tennessee Titans @ Pittsburgh Steelers",
@@ -1469,7 +1611,8 @@
         },
         "favorite": "Steelers",
         "winner": "Pittsburgh Steelers",
-        "score": "24-20"
+        "score": "24-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Washington Commanders @ Philadelphia Eagles",
@@ -1479,7 +1622,8 @@
         },
         "favorite": "Eagles",
         "winner": "Philadelphia Eagles",
-        "score": "27-17"
+        "score": "27-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "San Francisco 49ers @ Seattle Seahawks",
@@ -1489,7 +1633,8 @@
         },
         "favorite": "49ers",
         "winner": "San Francisco 49ers",
-        "score": "33-23"
+        "score": "33-23",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -1505,7 +1650,8 @@
         },
         "favorite": "Eagles",
         "winner": "Philadelphia Eagles",
-        "score": "31-21"
+        "score": "31-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Chicago Bears @ Washington Commanders",
@@ -1515,7 +1661,8 @@
         },
         "favorite": "Commanders",
         "winner": "Washington Commanders",
-        "score": "24-17"
+        "score": "24-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New England Patriots @ Miami Dolphins",
@@ -1525,7 +1672,8 @@
         },
         "favorite": "Dolphins",
         "winner": "Miami Dolphins",
-        "score": "29-16"
+        "score": "29-16",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Buffalo Bills @ Cincinnati Bengals",
@@ -1535,7 +1683,8 @@
         },
         "favorite": "Bills",
         "winner": "Buffalo Bills",
-        "score": "27-18"
+        "score": "27-18",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Indianapolis Colts @ Pittsburgh Steelers",
@@ -1545,7 +1694,8 @@
         },
         "favorite": "Steelers",
         "winner": "Pittsburgh Steelers",
-        "score": "21-20"
+        "score": "21-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Tennessee Titans @ Jacksonville Jaguars",
@@ -1555,7 +1705,8 @@
         },
         "favorite": "Jaguars",
         "winner": "Jacksonville Jaguars",
-        "score": "28-24"
+        "score": "28-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Jets @ New Orleans Saints",
@@ -1565,7 +1716,8 @@
         },
         "favorite": "Saints",
         "winner": "New Orleans Saints",
-        "score": "27-23"
+        "score": "27-23",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Kansas City Chiefs @ Dallas Cowboys",
@@ -1575,7 +1727,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Kansas City Chiefs",
-        "score": "23-20"
+        "score": "23-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Detroit Lions @ Minnesota Vikings",
@@ -1585,7 +1738,8 @@
         },
         "favorite": "Vikings",
         "winner": "Minnesota Vikings",
-        "score": "28-24"
+        "score": "28-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Carolina Panthers @ Green Bay Packers",
@@ -1595,7 +1749,8 @@
         },
         "favorite": "Packers",
         "winner": "Green Bay Packers",
-        "score": "27-20"
+        "score": "27-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Arizona Cardinals @ Seattle Seahawks",
@@ -1605,7 +1760,8 @@
         },
         "favorite": "Seahawks",
         "winner": "Seattle Seahawks",
-        "score": "30-17"
+        "score": "30-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "San Francisco 49ers @ Los Angeles Rams",
@@ -1615,7 +1771,8 @@
         },
         "favorite": "49ers",
         "winner": "San Francisco 49ers",
-        "score": "35-28"
+        "score": "35-28",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -1631,7 +1788,8 @@
         },
         "favorite": "Browns",
         "winner": "Cleveland Browns",
-        "score": "24-20"
+        "score": "24-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Washington Commanders @ Dallas Cowboys",
@@ -1641,7 +1799,8 @@
         },
         "favorite": "Cowboys",
         "winner": "Dallas Cowboys",
-        "score": "31-21"
+        "score": "31-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New Orleans Saints @ Detroit Lions",
@@ -1651,7 +1810,8 @@
         },
         "favorite": "Lions",
         "winner": "Detroit Lions",
-        "score": "33-28"
+        "score": "33-28",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Atlanta Falcons @ Green Bay Packers",
@@ -1661,7 +1821,8 @@
         },
         "favorite": "Packers",
         "winner": "Green Bay Packers",
-        "score": "23-21"
+        "score": "23-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Miami Dolphins @ Jacksonville Jaguars",
@@ -1671,7 +1832,8 @@
         },
         "favorite": "Jaguars",
         "winner": "Jacksonville Jaguars",
-        "score": "29-26"
+        "score": "29-26",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Pittsburgh Steelers @ Kansas City Chiefs",
@@ -1681,7 +1843,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Kansas City Chiefs",
-        "score": "27-24"
+        "score": "27-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Detroit Lions @ Minnesota Vikings",
@@ -1691,7 +1854,8 @@
         },
         "favorite": "Vikings",
         "winner": "Minnesota Vikings",
-        "score": "24-21"
+        "score": "24-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Philadelphia Eagles @ New York Giants",
@@ -1701,7 +1865,8 @@
         },
         "favorite": "Eagles",
         "winner": "Philadelphia Eagles",
-        "score": "31-20"
+        "score": "31-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "San Francisco 49ers @ Los Angeles Rams",
@@ -1711,7 +1876,8 @@
         },
         "favorite": "49ers",
         "winner": "San Francisco 49ers",
-        "score": "34-27"
+        "score": "34-27",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -1727,7 +1893,8 @@
         },
         "favorite": "Lions",
         "winner": "Detroit Lions",
-        "score": "23-20"
+        "score": "23-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Giants @ Dallas Cowboys",
@@ -1737,7 +1904,8 @@
         },
         "favorite": "Cowboys",
         "winner": "Dallas Cowboys",
-        "score": "27-20"
+        "score": "27-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Miami Dolphins @ Green Bay Packers",
@@ -1747,7 +1915,8 @@
         },
         "favorite": "Packers",
         "winner": "Green Bay Packers",
-        "score": "30-17"
+        "score": "30-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Las Vegas Raiders @ Kansas City Chiefs",
@@ -1757,7 +1926,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Kansas City Chiefs",
-        "score": "19-17"
+        "score": "19-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Chargers @ Atlanta Falcons",
@@ -1767,7 +1937,8 @@
         },
         "favorite": "Falcons",
         "winner": "Los Angeles Chargers",
-        "score": "17-13"
+        "score": "17-13",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Pittsburgh Steelers @ Cincinnati Bengals",
@@ -1777,7 +1948,8 @@
         },
         "favorite": "Steelers",
         "winner": "Pittsburgh Steelers",
-        "score": "44-38"
+        "score": "44-38",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Arizona Cardinals @ Minnesota Vikings",
@@ -1787,7 +1959,8 @@
         },
         "favorite": "Vikings",
         "winner": "Minnesota Vikings",
-        "score": "23-22"
+        "score": "23-22",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Indianapolis Colts @ New England Patriots",
@@ -1797,7 +1970,8 @@
         },
         "favorite": "Patriots",
         "winner": "Indianapolis Colts",
-        "score": "25-24"
+        "score": "25-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Seattle Seahawks @ New York Jets",
@@ -1807,7 +1981,8 @@
         },
         "favorite": "Jets",
         "winner": "Seattle Seahawks",
-        "score": "26-21"
+        "score": "26-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Tennessee Titans @ Washington Commanders",
@@ -1817,7 +1992,8 @@
         },
         "favorite": "Commanders",
         "winner": "Washington Commanders",
-        "score": "42-19"
+        "score": "42-19",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Houston Texans @ Jacksonville Jaguars",
@@ -1827,7 +2003,8 @@
         },
         "favorite": "Texans",
         "winner": "Houston Texans",
-        "score": "23-20"
+        "score": "23-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Rams @ New Orleans Saints",
@@ -1837,7 +2014,8 @@
         },
         "favorite": "Rams",
         "winner": "Los Angeles Rams",
-        "score": "21-14"
+        "score": "21-14",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Tampa Bay Buccaneers @ Carolina Panthers",
@@ -1847,7 +2025,8 @@
         },
         "favorite": "Buccaneers",
         "winner": "Tampa Bay Buccaneers",
-        "score": "26-23 (OT)"
+        "score": "26-23 (OT)",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Philadelphia Eagles @ Baltimore Ravens",
@@ -1857,7 +2036,8 @@
         },
         "favorite": "Eagles",
         "winner": "Philadelphia Eagles",
-        "score": "24-19"
+        "score": "24-19",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "San Francisco 49ers @ Buffalo Bills",
@@ -1867,7 +2047,8 @@
         },
         "favorite": "Bills",
         "winner": "Buffalo Bills",
-        "score": "35-10"
+        "score": "35-10",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -1883,7 +2064,8 @@
         },
         "favorite": "Lions",
         "winner": "Detroit Lions",
-        "score": "27-21"
+        "score": "27-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Jacksonville Jaguars @ Tennessee Titans",
@@ -1893,7 +2075,8 @@
         },
         "favorite": "Titans",
         "winner": "Tennessee Titans",
-        "score": "20-13"
+        "score": "20-13",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Miami Dolphins @ New York Jets",
@@ -1903,7 +2086,8 @@
         },
         "favorite": "Dolphins",
         "winner": "Miami Dolphins",
-        "score": "34-20"
+        "score": "34-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Seattle Seahawks @ Arizona Cardinals",
@@ -1913,7 +2097,8 @@
         },
         "favorite": "Cardinals",
         "winner": "Arizona Cardinals",
-        "score": "24-17"
+        "score": "24-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Chargers @ Kansas City Chiefs",
@@ -1923,7 +2108,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Kansas City Chiefs",
-        "score": "28-24"
+        "score": "28-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Philadelphia Eagles @ Pittsburgh Steelers",
@@ -1933,7 +2119,8 @@
         },
         "favorite": "Steelers",
         "winner": "Steelers",
-        "score": "21-20"
+        "score": "21-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Minnesota Vikings @ Chicago Bears",
@@ -1943,7 +2130,8 @@
         },
         "favorite": "Vikings",
         "winner": "Minnesota Vikings",
-        "score": "31-17"
+        "score": "31-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Las Vegas Raiders @ Atlanta Falcons",
@@ -1953,7 +2141,8 @@
         },
         "favorite": "Falcons",
         "winner": "Falcons",
-        "score": "26-23"
+        "score": "26-23",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "San Francisco 49ers @ Los Angeles Rams",
@@ -1963,7 +2152,8 @@
         },
         "favorite": "49ers",
         "winner": "49ers",
-        "score": "28-19"
+        "score": "28-19",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New England Patriots @ Buffalo Bills",
@@ -1973,7 +2163,8 @@
         },
         "favorite": "Bills",
         "winner": "Bills",
-        "score": "31-21"
+        "score": "31-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Washington Commanders @ Carolina Panthers",
@@ -1983,7 +2174,8 @@
         },
         "favorite": "Panthers",
         "winner": "Commanders",
-        "score": "24-21"
+        "score": "24-21",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -1999,7 +2191,8 @@
         },
         "favorite": "Bills",
         "winner": "Bills",
-        "score": "34-20"
+        "score": "34-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Los Angeles Chargers @ Tampa Bay Buccaneers",
@@ -2009,7 +2202,8 @@
         },
         "favorite": "Chargers",
         "winner": "Chargers",
-        "score": "27-23"
+        "score": "27-23",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Green Bay Packers @ Seattle Seahawks",
@@ -2019,7 +2213,8 @@
         },
         "favorite": "Seahawks",
         "winner": "Packers",
-        "score": "20-17"
+        "score": "20-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Minnesota Vikings @ Chicago Bears",
@@ -2029,7 +2224,8 @@
         },
         "favorite": "Vikings",
         "winner": "Vikings",
-        "score": "28-24"
+        "score": "28-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New England Patriots @ Los Angeles Rams",
@@ -2039,7 +2235,8 @@
         },
         "favorite": "Rams",
         "winner": "Rams",
-        "score": "31-27"
+        "score": "31-27",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Tennessee Titans @ Cincinnati Bengals",
@@ -2049,7 +2246,8 @@
         },
         "favorite": "Bengals",
         "winner": "Bengals",
-        "score": "27-24"
+        "score": "27-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Jacksonville Jaguars @ New York Jets",
@@ -2059,7 +2257,8 @@
         },
         "favorite": "Jets",
         "winner": "Jets",
-        "score": "21-20"
+        "score": "21-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Pittsburgh Steelers @ Philadelphia Eagles",
@@ -2069,7 +2268,8 @@
         },
         "favorite": "Eagles",
         "winner": "Eagles",
-        "score": "34-21"
+        "score": "34-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Washington Commanders @ New Orleans Saints",
@@ -2079,7 +2279,8 @@
         },
         "favorite": "Saints",
         "winner": "Saints",
-        "score": "28-24"
+        "score": "28-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Kansas City Chiefs @ Dallas Cowboys",
@@ -2089,7 +2290,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Chiefs",
-        "score": "31-20"
+        "score": "31-20",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -2105,7 +2307,8 @@
         },
         "favorite": "Cowboys",
         "winner": "Dallas Cowboys",
-        "score": "27-20"
+        "score": "27-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Green Bay Packers @ Minnesota Vikings",
@@ -2115,7 +2318,8 @@
         },
         "favorite": "Vikings",
         "winner": "Minnesota Vikings",
-        "score": "31-25"
+        "score": "31-25",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Seattle Seahawks @ Chicago Bears",
@@ -2125,7 +2329,8 @@
         },
         "favorite": "Bears",
         "winner": "Chicago Bears",
-        "score": "24-17"
+        "score": "24-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Kansas City Chiefs @ Pittsburgh Steelers",
@@ -2135,7 +2340,8 @@
         },
         "favorite": "Chiefs",
         "winner": "Kansas City Chiefs",
-        "score": "28-17"
+        "score": "28-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Detroit Lions @ New York Giants",
@@ -2145,7 +2351,8 @@
         },
         "favorite": "Lions",
         "winner": "Detroit Lions",
-        "score": "27-20"
+        "score": "27-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Philadelphia Eagles @ Washington Commanders",
@@ -2155,7 +2362,8 @@
         },
         "favorite": "Eagles",
         "winner": "Philadelphia Eagles",
-        "score": "33-21"
+        "score": "33-21",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New York Jets @ Cincinnati Bengals",
@@ -2165,7 +2373,8 @@
         },
         "favorite": "Bengals",
         "winner": "Cincinnati Bengals",
-        "score": "34-27"
+        "score": "34-27",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "New England Patriots @ Baltimore Ravens",
@@ -2175,7 +2384,8 @@
         },
         "favorite": "Ravens",
         "winner": "Baltimore Ravens",
-        "score": "27-13"
+        "score": "27-13",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Arizona Cardinals @ Tampa Bay Buccaneers",
@@ -2185,7 +2395,8 @@
         },
         "favorite": "Buccaneers",
         "winner": "Tampa Bay Buccaneers",
-        "score": "21-17"
+        "score": "21-17",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -2201,7 +2412,8 @@
         },
         "favorite": "Giants",
         "winner": "Giants",
-        "score": "24-14"
+        "score": "24-14",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Packers @ Commanders",
@@ -2211,7 +2423,8 @@
         },
         "favorite": "Commanders",
         "winner": "Packers",
-        "score": "28-20"
+        "score": "28-20",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Bengals @ Browns",
@@ -2221,7 +2434,8 @@
         },
         "favorite": "Bengals",
         "winner": "Bengals",
-        "score": "27-24"
+        "score": "27-24",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Cowboys @ Eagles",
@@ -2231,7 +2445,8 @@
         },
         "favorite": "Eagles",
         "winner": "Eagles",
-        "score": "30-22"
+        "score": "30-22",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Steelers @ Lions",
@@ -2241,7 +2456,8 @@
         },
         "favorite": "Lions",
         "winner": "Steelers",
-        "score": "28-27"
+        "score": "28-27",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Chargers @ Vikings",
@@ -2251,7 +2467,8 @@
         },
         "favorite": "Vikings",
         "winner": "Vikings",
-        "score": "26-17"
+        "score": "26-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Falcons @ Patriots",
@@ -2261,7 +2478,8 @@
         },
         "favorite": "Patriots",
         "winner": "Patriots",
-        "score": "21-13"
+        "score": "21-13",
+        "fpi_percentage": 0.0
       }
     ]
   },
@@ -2277,7 +2495,8 @@
         },
         "favorite": "Ravens",
         "winner": "Ravens",
-        "score": "28-17"
+        "score": "28-17",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Bengals @ Steelers",
@@ -2287,7 +2506,8 @@
         },
         "favorite": "Bengals",
         "winner": "Bengals",
-        "score": "31-28"
+        "score": "31-28",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Giants @ Eagles",
@@ -2297,7 +2517,8 @@
         },
         "favorite": "Eagles",
         "winner": "Eagles",
-        "score": "27-23"
+        "score": "27-23",
+        "fpi_percentage": 0.0
       },
       {
         "matchup": "Bills @ Patriots",
@@ -2307,7 +2528,8 @@
         },
         "favorite": "Bills",
         "winner": "Bills",
-        "score": "35-21"
+        "score": "35-21",
+        "fpi_percentage": 0.0
       }
     ]
   }

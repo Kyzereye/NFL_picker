@@ -4,148 +4,195 @@
     "week": 1,
     "games": [
       {
-        "matchup": "Dallas Cowboys @ Philadelphia Eagles",
+        "matchup": "Commanders @ Giants",
         "moneyline_odds": {
-          "Cowboys": "+250",
-          "Eagles": "-310"
+          "Commanders": "-400",
+          "Giants": "+300"
+        },
+        "favorite": "Commanders",
+        "winner": "Commanders",
+        "fpi_percentage": 69.0,
+        "odds_difference": 700,
+        "favorite_won": true
+      },
+      {
+        "matchup": "Broncos @ Titans",
+        "moneyline_odds": {
+          "Broncos": "-400",
+          "Titans": "+300"
+        },
+        "favorite": "Broncos",
+        "winner": "Broncos",
+        "fpi_percentage": 69.8,
+        "odds_difference": 700,
+        "favorite_won": true
+      },
+      {
+        "matchup": "Eagles @ Cowboys",
+        "moneyline_odds": {
+          "Eagles": "-300",
+          "Cowboys": "+250"
         },
         "favorite": "Eagles",
-        "winner": "Eagles"
+        "winner": "Eagles",
+        "fpi_percentage": 66.4,
+        "odds_difference": 550,
+        "favorite_won": true
       },
       {
-        "matchup": "Kansas City Chiefs @ Los Angeles Chargers",
+        "matchup": "Bengals @ Browns",
         "moneyline_odds": {
-          "Chiefs": "-162",
-          "Chargers": "+136"
+          "Bengals": "-240",
+          "Browns": "+200"
+        },
+        "favorite": "Bengals",
+        "winner": "Bengals",
+        "fpi_percentage": 65.2,
+        "odds_difference": 440,
+        "favorite_won": true
+      },
+      {
+        "matchup": "Cardinals @ Saints",
+        "moneyline_odds": {
+          "Cardinals": "-240",
+          "Saints": "+200"
+        },
+        "favorite": "Cardinals",
+        "winner": "Cardinals",
+        "fpi_percentage": 57.0,
+        "odds_difference": 440,
+        "favorite_won": true
+      },
+      {
+        "matchup": "Jaguars @ Panthers",
+        "moneyline_odds": {
+          "Jaguars": "-165",
+          "Panthers": "+140"
+        },
+        "favorite": "Jaguars",
+        "winner": "Jaguars",
+        "fpi_percentage": 58.9,
+        "odds_difference": 305,
+        "favorite_won": true
+      },
+      {
+        "matchup": "Chiefs @ Chargers",
+        "moneyline_odds": {
+          "Chiefs": "-155",
+          "Chargers": "+135"
         },
         "favorite": "Chiefs",
-        "winner": "Chargers"
+        "winner": "Chiefs",
+        "fpi_percentage": 56.9,
+        "odds_difference": 290,
+        "favorite_won": true
       },
       {
-        "matchup": "Pittsburgh Steelers @ New York Jets",
+        "matchup": "Steelers @ Jets",
         "moneyline_odds": {
-          "Steelers": "-154",
+          "Steelers": "-150",
           "Jets": "+130"
         },
         "favorite": "Steelers",
-        "winner": "Steelers"
+        "winner": "Steelers",
+        "fpi_percentage": 58.8,
+        "odds_difference": 280,
+        "favorite_won": true
       },
       {
-        "matchup": "Atlanta Falcons @ Tampa Bay Buccaneers",
+        "matchup": "Rams @ Texans",
         "moneyline_odds": {
-          "Falcons": "+114",
-          "Buccaneers": "-134"
-        },
-        "favorite": "Buccaneers",
-        "winner": "Buccaneers"
-      },
-      {
-        "matchup": "Indianapolis Colts @ Miami Dolphins",
-        "moneyline_odds": {
-          "Colts": "+130",
-          "Dolphins": "-154"
-        },
-        "favorite": "Dolphins",
-        "winner": "Colts"
-      },
-      {
-        "matchup": "Cleveland Browns @ Cincinnati Bengals",
-        "moneyline_odds": {
-          "Browns": "+205",
-          "Bengals": "-250"
-        },
-        "favorite": "Bengals",
-        "winner": "Bengals"
-      },
-      {
-        "matchup": "New England Patriots @ Las Vegas Raiders",
-        "moneyline_odds": {
-          "Patriots": "-155",
-          "Raiders": "+130"
-        },
-        "favorite": "Patriots",
-        "winner": "Raiders"
-      },
-      {
-        "matchup": "Arizona Cardinals @ New Orleans Saints",
-        "moneyline_odds": {
-          "Cardinals": "-285",
-          "Saints": "+230"
-        },
-        "favorite": "Cardinals",
-        "winner": "Cardinals"
-      },
-      {
-        "matchup": "Carolina Panthers @ Jacksonville Jaguars",
-        "moneyline_odds": {
-          "Panthers": "+148",
-          "Jaguars": "-176"
-        },
-        "favorite": "Jaguars",
-        "winner": "Jaguars"
-      },
-      {
-        "matchup": "New York Giants @ Washington Commanders",
-        "moneyline_odds": {
-          "Giants": "+215",
-          "Commanders": "-265"
-        },
-        "favorite": "Commanders",
-        "winner": "Commanders"
-      },
-      {
-        "matchup": "Tennessee Titans @ Denver Broncos",
-        "moneyline_odds": {
-          "Titans": "+300",
-          "Broncos": "-380"
-        },
-        "favorite": "Broncos",
-        "winner": "Broncos"
-      },
-      {
-        "matchup": "San Francisco 49ers @ Seattle Seahawks",
-        "moneyline_odds": {
-          "49ers": "-136",
-          "Seahawks": "+116"
-        },
-        "favorite": "49ers",
-        "winner": "49ers"
-      },
-      {
-        "matchup": "Detroit Lions @ Green Bay Packers",
-        "moneyline_odds": {
-          "Lions": "+120",
-          "Packers": "-142"
-        },
-        "favorite": "Packers",
-        "winner": "Packers"
-      },
-      {
-        "matchup": "Houston Texans @ Los Angeles Rams",
-        "moneyline_odds": {
-          "Texans": "+115",
-          "Rams": "-135"
+          "Rams": "-150",
+          "Texans": "+130"
         },
         "favorite": "Rams",
-        "winner": "Rams"
+        "winner": "Rams",
+        "fpi_percentage": 56.0,
+        "odds_difference": 280,
+        "favorite_won": true
       },
       {
-        "matchup": "Baltimore Ravens @ Buffalo Bills",
+        "matchup": "Buccaneers @ Falcons",
         "moneyline_odds": {
-          "Ravens": "-102",
-          "Bills": "-116"
+          "Buccaneers": "-135",
+          "Falcons": "+115"
+        },
+        "favorite": "Buccaneers",
+        "winner": "Buccaneers",
+        "fpi_percentage": 55.3,
+        "odds_difference": 250,
+        "favorite_won": true
+      },
+      {
+        "matchup": "Patriots @ Raiders",
+        "moneyline_odds": {
+          "Patriots": "-135",
+          "Raiders": "+115"
+        },
+        "favorite": "Patriots",
+        "winner": "Patriots",
+        "fpi_percentage": 51.9,
+        "odds_difference": 250,
+        "favorite_won": true
+      },
+      {
+        "matchup": "49ers @ Seahawks",
+        "moneyline_odds": {
+          "49ers": "-125",
+          "Seahawks": "+105"
+        },
+        "favorite": "49ers",
+        "winner": "49ers",
+        "fpi_percentage": 53.7,
+        "odds_difference": 230,
+        "favorite_won": true
+      },
+      {
+        "matchup": "Lions @ Packers",
+        "moneyline_odds": {
+          "Lions": "+105",
+          "Packers": "-125"
+        },
+        "favorite": "Lions",
+        "winner": "Lions",
+        "fpi_percentage": 51.9,
+        "odds_difference": 230,
+        "favorite_won": true
+      },
+      {
+        "matchup": "Bills @ Ravens",
+        "moneyline_odds": {
+          "Bills": "-125",
+          "Ravens": "+105"
         },
         "favorite": "Bills",
-        "winner": "Bills"
+        "winner": "Bills",
+        "fpi_percentage": 52.3,
+        "odds_difference": 230,
+        "favorite_won": true
       },
       {
-        "matchup": "Minnesota Vikings @ Chicago Bears",
+        "matchup": "Bears @ Vikings",
         "moneyline_odds": {
-          "Vikings": "-115",
-          "Bears": "+100"
+          "Bears": "-110",
+          "Vikings": "-110"
         },
-        "favorite": "Vikings",
-        "winner": "Vikings"
+        "favorite": "Bears",
+        "winner": "Bears",
+        "fpi_percentage": 52.5,
+        "odds_difference": 220,
+        "favorite_won": true
+      },
+      {
+        "matchup": "Colts @ Texans",
+        "moneyline_odds": {
+          "Colts": "-120"
+        },
+        "favorite": "Colts",
+        "winner": "Colts",
+        "fpi_percentage": 49.9,
+        "odds_difference": 0,
+        "favorite_won": true
       }
     ]
   },
@@ -154,22 +201,28 @@
     "week": 2,
     "games": [
       {
-        "matchup": "Rams @ Titans",
+        "matchup": "49ers @ Saints",
         "moneyline_odds": {
-          "Rams": "-260",
-          "Titans": "+215"
+          "49ers": "-175",
+          "Saints": "+150"
         },
-        "favorite": "Rams",
-        "winner": "Rams"
+        "favorite": "49ers",
+        "winner": "49ers",
+        "fpi_percentage": 52.0,
+        "odds_difference": 325,
+        "favorite_won": true
       },
       {
-        "matchup": "Seahawks @ Steelers",
+        "matchup": "Jaguars @ Bengals",
         "moneyline_odds": {
-          "Seahawks": "+130",
-          "Steelers": "-150"
+          "Jaguars": "+165",
+          "Bengals": "-195"
         },
-        "favorite": "Steelers",
-        "winner": "Seahawks"
+        "favorite": "Bengals",
+        "winner": "Bengals",
+        "fpi_percentage": 60.07,
+        "odds_difference": 360,
+        "favorite_won": true
       },
       {
         "matchup": "Bills @ Jets",
@@ -178,25 +231,58 @@
           "Jets": "+260"
         },
         "favorite": "Bills",
-        "winner": "Bills"
-      },
-      {
-        "matchup": "Bears @ Lions",
-        "moneyline_odds": {
-          "Bears": "+210",
-          "Lions": "-250"
-        },
-        "favorite": "Lions",
-        "winner": "Lions"
+        "winner": "Bills",
+        "fpi_percentage": 64.67,
+        "odds_difference": 580,
+        "favorite_won": true
       },
       {
         "matchup": "Giants @ Cowboys",
         "moneyline_odds": {
-          "Giants": "+215",
-          "Cowboys": "-260"
+          "Giants": "+210",
+          "Cowboys": "-250"
         },
         "favorite": "Cowboys",
-        "winner": "Cowboys"
+        "winner": "Cowboys",
+        "fpi_percentage": 66.0,
+        "odds_difference": 460,
+        "favorite_won": true
+      },
+      {
+        "matchup": "Patriots @ Dolphins",
+        "moneyline_odds": {
+          "Patriots": "+110",
+          "Dolphins": "-130"
+        },
+        "favorite": "Dolphins",
+        "winner": "Dolphins",
+        "fpi_percentage": 53.07,
+        "odds_difference": 240,
+        "favorite_won": true
+      },
+      {
+        "matchup": "Bears @ Lions",
+        "moneyline_odds": {
+          "Bears": "+240",
+          "Lions": "-290"
+        },
+        "favorite": "Lions",
+        "winner": "Lions",
+        "fpi_percentage": 62.0,
+        "odds_difference": 530,
+        "favorite_won": true
+      },
+      {
+        "matchup": "Rams @ Titans",
+        "moneyline_odds": {
+          "Rams": "-260",
+          "Titans": "+215"
+        },
+        "favorite": "Rams",
+        "winner": "Rams",
+        "fpi_percentage": 66.93,
+        "odds_difference": 475,
+        "favorite_won": true
       },
       {
         "matchup": "Browns @ Ravens",
@@ -205,133 +291,135 @@
           "Ravens": "-900"
         },
         "favorite": "Ravens",
-        "winner": "Ravens"
+        "winner": "Ravens",
+        "fpi_percentage": 79.73,
+        "odds_difference": 1450,
+        "favorite_won": true
       },
       {
-        "matchup": "49ers @ Saints",
+        "matchup": "Seahawks @ Steelers",
         "moneyline_odds": {
-          "49ers": "-230",
-          "Saints": "+195"
+          "Seahawks": "+140",
+          "Steelers": "-165"
         },
-        "favorite": "49ers",
-        "winner": "49ers"
-      },
-      {
-        "matchup": "Patriots @ Dolphins",
-        "moneyline_odds": {
-          "Patriots": "+100",
-          "Dolphins": "-120"
-        },
-        "favorite": "Dolphins",
-        "winner": "Patriots"
-      },
-      {
-        "matchup": "Jaguars @ Bengals",
-        "moneyline_odds": {
-          "Jaguars": "+155",
-          "Bengals": "-185"
-        },
-        "favorite": "Bengals",
-        "winner": "Bengals"
+        "favorite": "Steelers",
+        "winner": "Steelers",
+        "fpi_percentage": 61.2,
+        "odds_difference": 305,
+        "favorite_won": true
       },
       {
         "matchup": "Panthers @ Cardinals",
         "moneyline_odds": {
-          "Panthers": "+240",
-          "Cardinals": "-290"
+          "Panthers": "+260",
+          "Cardinals": "-320"
         },
         "favorite": "Cardinals",
-        "winner": "Cardinals"
+        "winner": "Cardinals",
+        "fpi_percentage": 65.8,
+        "odds_difference": 580,
+        "favorite_won": true
       },
       {
         "matchup": "Broncos @ Colts",
         "moneyline_odds": {
-          "Broncos": "+105",
-          "Colts": "-125"
+          "Broncos": "-120",
+          "Colts": "+100"
         },
         "favorite": "Colts",
-        "winner": "Colts"
+        "winner": "Colts",
+        "fpi_percentage": 51.4,
+        "odds_difference": 220,
+        "favorite_won": true
       },
       {
         "matchup": "Eagles @ Chiefs",
         "moneyline_odds": {
-          "Eagles": "+115",
-          "Chiefs": "-135"
+          "Eagles": "-120",
+          "Chiefs": "+100"
         },
         "favorite": "Chiefs",
-        "winner": "Eagles"
+        "winner": "Chiefs",
+        "fpi_percentage": 52.47,
+        "odds_difference": 220,
+        "favorite_won": true
       },
       {
         "matchup": "Falcons @ Vikings",
         "moneyline_odds": {
-          "Falcons": "+155",
-          "Vikings": "-185"
+          "Falcons": "+145",
+          "Vikings": "-170"
         },
         "favorite": "Vikings",
-        "winner": "Falcons"
+        "winner": "Vikings",
+        "fpi_percentage": 64.6,
+        "odds_difference": 315,
+        "favorite_won": true
       },
       {
         "matchup": "Buccaneers @ Texans",
         "moneyline_odds": {
-          "Buccaneers": "-105",
-          "Texans": "-115"
+          "Buccaneers": "+120",
+          "Texans": "-140"
         },
-        "favorite": "Texans",
-        "winner": "Buccaneers"
+        "favorite": "Buccaneers",
+        "winner": "Buccaneers",
+        "fpi_percentage": 50.13,
+        "odds_difference": 260,
+        "favorite_won": true
       },
       {
         "matchup": "Chargers @ Raiders",
         "moneyline_odds": {
-          "Chargers": "-145",
-          "Raiders": "+125"
+          "Chargers": "-190",
+          "Raiders": "+160"
         },
         "favorite": "Chargers",
-        "winner": "Chargers"
+        "winner": "Chargers",
+        "fpi_percentage": 59.67,
+        "odds_difference": 350,
+        "favorite_won": true
       }
     ]
   },
   {
-    "season": "2023",
+    "season": "2025",
     "week": 3,
     "games": [
       {
-        "matchup": "Dolphins @ Bills",
-        "moneyline_odds": {
-          "Dolphins": "+550",
-          "Bills": "-900"
-        },
-        "favorite": "Bills",
-        "winner": "Bills",
-        "favorite_won": true
-      },
-      {
         "matchup": "Jets @ Buccaneers",
         "moneyline_odds": {
-          "Jets": "+230",
-          "Buccaneers": "-280"
+          "Jets": "+240",
+          "Buccaneers": "-290"
         },
         "favorite": "Buccaneers",
         "winner": "Buccaneers",
+        "fpi_percentage": 71.8,
+        "odds_difference": 530,
         "favorite_won": true
       },
       {
         "matchup": "Colts @ Titans",
         "moneyline_odds": {
-          "Colts": "-195",
-          "Titans": "+165"
+          "Colts": "-210",
+          "Titans": "+175"
         },
         "favorite": "Colts",
         "winner": "Colts",
+        "fpi_percentage": 65.2,
+        "odds_difference": 385,
         "favorite_won": true
       },
       {
         "matchup": "Raiders @ Commanders",
         "moneyline_odds": {
-          "Raiders": "+155",
-          "Commanders": "-185"
+          "Raiders": "+130",
+          "Commanders": "-150"
         },
         "favorite": "Commanders",
         "winner": "Commanders",
+        "fpi_percentage": 61.87,
+        "odds_difference": 280,
         "favorite_won": true
       },
       {
@@ -342,26 +430,32 @@
         },
         "favorite": "Eagles",
         "winner": "Eagles",
+        "fpi_percentage": 57.67,
+        "odds_difference": 350,
         "favorite_won": true
       },
       {
         "matchup": "Falcons @ Panthers",
         "moneyline_odds": {
-          "Falcons": "-270",
-          "Panthers": "+220"
+          "Falcons": "-240",
+          "Panthers": "+200"
         },
         "favorite": "Falcons",
         "winner": "Panthers",
+        "fpi_percentage": 58.33,
+        "odds_difference": 440,
         "favorite_won": false
       },
       {
         "matchup": "Texans @ Jaguars",
         "moneyline_odds": {
-          "Texans": "+105",
-          "Jaguars": "-125"
+          "Texans": "+100",
+          "Jaguars": "-120"
         },
         "favorite": "Jaguars",
         "winner": "Jaguars",
+        "fpi_percentage": 53.53,
+        "odds_difference": 220,
         "favorite_won": true
       },
       {
@@ -372,6 +466,8 @@
         },
         "favorite": "Packers",
         "winner": "Browns",
+        "fpi_percentage": 71.2,
+        "odds_difference": 790,
         "favorite_won": false
       },
       {
@@ -380,9 +476,11 @@
           "Steelers": "-130",
           "Patriots": "+110"
         },
-        "favorite": "Patriots",
+        "favorite": "Steelers",
         "winner": "Steelers",
-        "favorite_won": false
+        "fpi_percentage": 50.0,
+        "odds_difference": 240,
+        "favorite_won": true
       },
       {
         "matchup": "Bengals @ Vikings",
@@ -392,46 +490,56 @@
         },
         "favorite": "Vikings",
         "winner": "Vikings",
+        "fpi_percentage": 54.73,
+        "odds_difference": 280,
         "favorite_won": true
       },
       {
         "matchup": "Broncos @ Chargers",
         "moneyline_odds": {
-          "Broncos": "+125",
-          "Chargers": "-145"
+          "Broncos": "+120",
+          "Chargers": "-140"
         },
         "favorite": "Chargers",
         "winner": "Chargers",
+        "fpi_percentage": 56.8,
+        "odds_difference": 260,
         "favorite_won": true
       },
       {
         "matchup": "Saints @ Seahawks",
         "moneyline_odds": {
-          "Saints": "+300",
-          "Seahawks": "-400"
+          "Saints": "+290",
+          "Seahawks": "-380"
         },
         "favorite": "Seahawks",
         "winner": "Seahawks",
+        "fpi_percentage": 64.27,
+        "odds_difference": 670,
         "favorite_won": true
       },
       {
         "matchup": "Cardinals @ 49ers",
         "moneyline_odds": {
-          "Cardinals": "+105",
-          "49ers": "-125"
+          "Cardinals": "+130",
+          "49ers": "-150"
         },
         "favorite": "Cardinals",
         "winner": "49ers",
+        "fpi_percentage": 52.93,
+        "odds_difference": 280,
         "favorite_won": false
       },
       {
         "matchup": "Cowboys @ Bears",
         "moneyline_odds": {
-          "Cowboys": "-115",
-          "Bears": "-105"
+          "Cowboys": "-120",
+          "Bears": "+100"
         },
         "favorite": "Cowboys",
         "winner": "Bears",
+        "fpi_percentage": 55.6,
+        "odds_difference": 220,
         "favorite_won": false
       },
       {
@@ -442,16 +550,20 @@
         },
         "favorite": "Chiefs",
         "winner": "Chiefs",
+        "fpi_percentage": 65.73,
+        "odds_difference": 530,
         "favorite_won": true
       },
       {
         "matchup": "Lions @ Ravens",
         "moneyline_odds": {
-          "Lions": "+200",
-          "Ravens": "-240"
+          "Lions": "+190",
+          "Ravens": "-225"
         },
         "favorite": "Ravens",
-        "winner": "Lions",
+        "winner": "TBD",
+        "fpi_percentage": 55.33,
+        "odds_difference": 415,
         "favorite_won": false
       }
     ]
@@ -468,6 +580,7 @@
         },
         "favorite": "Cardinals",
         "winner": "",
+        "fpi_percentage": 52.47,
         "odds_difference": 220,
         "favorite_won": false
       },
@@ -479,6 +592,7 @@
         },
         "favorite": "Vikings",
         "winner": "",
+        "fpi_percentage": 57.18,
         "odds_difference": 280,
         "favorite_won": false
       },
@@ -490,6 +604,7 @@
         },
         "favorite": "Bills",
         "winner": "",
+        "fpi_percentage": 79.67,
         "odds_difference": 2700,
         "favorite_won": false
       },
@@ -501,6 +616,7 @@
         },
         "favorite": "Chargers",
         "winner": "",
+        "fpi_percentage": 67.8,
         "odds_difference": 510,
         "favorite_won": false
       },
@@ -512,6 +628,7 @@
         },
         "favorite": "Commanders",
         "winner": "",
+        "fpi_percentage": 59.33,
         "odds_difference": 270,
         "favorite_won": false
       },
@@ -523,6 +640,7 @@
         },
         "favorite": "Eagles",
         "winner": "",
+        "fpi_percentage": 54.6,
         "odds_difference": 315,
         "favorite_won": false
       },
@@ -534,6 +652,7 @@
         },
         "favorite": "Lions",
         "winner": "",
+        "fpi_percentage": 75.73,
         "odds_difference": 860,
         "favorite_won": false
       },
@@ -545,6 +664,7 @@
         },
         "favorite": "Patriots",
         "winner": "",
+        "fpi_percentage": 56.07,
         "odds_difference": 425,
         "favorite_won": false
       },
@@ -556,6 +676,7 @@
         },
         "favorite": "Texans",
         "winner": "",
+        "fpi_percentage": 69.67,
         "odds_difference": 640,
         "favorite_won": false
       },
@@ -567,6 +688,7 @@
         },
         "favorite": "49ers",
         "winner": "",
+        "fpi_percentage": 50.07,
         "odds_difference": 325,
         "favorite_won": false
       },
@@ -578,6 +700,7 @@
         },
         "favorite": "Rams",
         "winner": "",
+        "fpi_percentage": 57.2,
         "odds_difference": 350,
         "favorite_won": false
       },
@@ -589,6 +712,7 @@
         },
         "favorite": "Bears",
         "winner": "",
+        "fpi_percentage": 51.6,
         "odds_difference": 220,
         "favorite_won": false
       },
@@ -600,6 +724,7 @@
         },
         "favorite": "Ravens",
         "winner": "",
+        "fpi_percentage": 50.98,
         "odds_difference": 280,
         "favorite_won": false
       },
@@ -611,6 +736,7 @@
         },
         "favorite": "Packers",
         "winner": "",
+        "fpi_percentage": 58.8,
         "odds_difference": 500,
         "favorite_won": false
       },
@@ -622,6 +748,7 @@
         },
         "favorite": "Dolphins",
         "winner": "",
+        "fpi_percentage": 56.8,
         "odds_difference": 260,
         "favorite_won": false
       },
@@ -633,6 +760,7 @@
         },
         "favorite": "Broncos",
         "winner": "",
+        "fpi_percentage": 72.0,
         "odds_difference": 670,
         "favorite_won": false
       }
