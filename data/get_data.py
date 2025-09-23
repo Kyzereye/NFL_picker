@@ -15,15 +15,15 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-def create_2025_week3_config():
-    """Create configuration for scraping 2025 week 3 data"""
+def create_2025_week4_config():
+    """Create configuration for scraping 2025 week 4 data"""
     return ScrapeConfig(
         season="2025",
-        weeks=[3],
+        weeks=[4],
         base_url_pattern="https://www.espn.com/espn/betting/story/_/id/{story_id}/2025-nfl-week-{week}-schedule-odds-betting-point-spreads",
-        output_file="nfl_2025_week3.json",
+        output_file="nfl_2025_week4.json",
         story_ids={
-            3: "46264468"
+            4: "46303232"
         }
     )
 
@@ -37,7 +37,7 @@ def main():
     print("=" * 60)
     
     # Create configuration for current scraping task
-    config = create_2025_week3_config()
+    config = create_2025_week4_config()
     
     logger.info(f"Starting scrape for {config.season} season, weeks: {config.weeks}")
     
@@ -106,7 +106,7 @@ if __name__ == "__main__":
 """
 # Old URL list - now handled by configuration
 urls_to_scrape = [
-    'https://www.espn.com/espn/betting/story/_/id/46264468/2025-nfl-week-3-schedule-odds-betting-point-spreads'
+    'https://www.espn.com/espn/betting/story/_/id/46303232/2025-nfl-week-4-schedule-odds-betting-point-spreads'
 ]
 
 # Old scraping loop - replaced by ScrapingManager
@@ -126,7 +126,7 @@ for url in urls_to_scrape:
     else:
         print(f"No moneyline or FPI data found for Week {week_number}.")
 
-output_file = 'nfl_2025_week3.json'
+output_file = 'nfl_2025_week4.json'
 with open(output_file, 'w') as f:
     json.dump(all_data, f, indent=2)
 

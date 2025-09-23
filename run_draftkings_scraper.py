@@ -33,7 +33,7 @@ def scrape_draftkings_only():
     config = UnifiedScrapeConfig(
         source=DataSource.DRAFTKINGS,
         season="2025",
-        week=3,  # Current week
+        week=4,  # Current week
         output_file=f"data/draftkings_odds_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
         headless=True
     )
@@ -74,7 +74,7 @@ def scrape_all_sources():
     
     try:
         # Scrape from all sources
-        all_results = multi_scraper.scrape_all_sources(week=3, season="2025")
+        all_results = multi_scraper.scrape_all_sources(week=4, season="2025")
         
         # Save combined results
         output_file = f"data/combined_odds_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"

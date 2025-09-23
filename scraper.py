@@ -99,7 +99,7 @@ class NFLDataScraper:
             text = p_tag.get_text()
             
             # Check if paragraph contains both moneyline and FPI data
-            if 'Money Line' in text and 'FPI favorite:' in text:
+            if 'Money line' in text and 'FPI favorite:' in text:
                 game_data = self._extract_game_data(text)
                 if game_data:
                     all_game_data.append(game_data)
@@ -167,11 +167,11 @@ class ScrapingManager:
         """Create configuration for 2025 season scraping"""
         return ScrapeConfig(
             season="2025",
-            weeks=[3],  # Currently configured for week 3
+            weeks=[4],  # Currently configured for week 4
             base_url_pattern="https://www.espn.com/espn/betting/story/_/id/{story_id}/2025-nfl-week-{week}-schedule-odds-betting-point-spreads",
-            output_file="data/nfl_2025_week3.json",
+            output_file="data/nfl_2025_week4.json",
             story_ids={
-                3: "46264468"  # Week 3 story ID
+                4: "46303232"  # Week 4 story ID
             }
         )
     

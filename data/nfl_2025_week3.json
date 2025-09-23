@@ -10,7 +10,8 @@
           "Bills": "-900"
         },
         "favorite": "Bills",
-        "winner": ""
+        "winner": "Bills",
+        "favorite_won": true
       },
       {
         "matchup": "Jets @ Buccaneers",
@@ -19,7 +20,8 @@
           "Buccaneers": "-280"
         },
         "favorite": "Buccaneers",
-        "winner": ""
+        "winner": "Buccaneers",
+        "favorite_won": true
       },
       {
         "matchup": "Colts @ Titans",
@@ -28,7 +30,8 @@
           "Titans": "+165"
         },
         "favorite": "Colts",
-        "winner": ""
+        "winner": "Colts",
+        "favorite_won": true
       },
       {
         "matchup": "Raiders @ Commanders",
@@ -37,7 +40,8 @@
           "Commanders": "-185"
         },
         "favorite": "Commanders",
-        "winner": ""
+        "winner": "Commanders",
+        "favorite_won": true
       },
       {
         "matchup": "Rams @ Eagles",
@@ -46,7 +50,8 @@
           "Eagles": "-190"
         },
         "favorite": "Eagles",
-        "winner": ""
+        "winner": "Eagles",
+        "favorite_won": true
       },
       {
         "matchup": "Falcons @ Panthers",
@@ -55,7 +60,8 @@
           "Panthers": "+220"
         },
         "favorite": "Falcons",
-        "winner": ""
+        "winner": "Panthers",
+        "favorite_won": false
       },
       {
         "matchup": "Texans @ Jaguars",
@@ -64,7 +70,8 @@
           "Jaguars": "-125"
         },
         "favorite": "Jaguars",
-        "winner": ""
+        "winner": "Jaguars",
+        "favorite_won": true
       },
       {
         "matchup": "Packers @ Browns",
@@ -73,7 +80,8 @@
           "Browns": "+340"
         },
         "favorite": "Packers",
-        "winner": ""
+        "winner": "Browns",
+        "favorite_won": false
       },
       {
         "matchup": "Steelers @ Patriots",
@@ -82,7 +90,8 @@
           "Patriots": "+110"
         },
         "favorite": "Patriots",
-        "winner": ""
+        "winner": "Steelers",
+        "favorite_won": false
       },
       {
         "matchup": "Bengals @ Vikings",
@@ -91,7 +100,8 @@
           "Vikings": "-150"
         },
         "favorite": "Vikings",
-        "winner": ""
+        "winner": "Vikings",
+        "favorite_won": true
       },
       {
         "matchup": "Broncos @ Chargers",
@@ -100,7 +110,8 @@
           "Chargers": "-145"
         },
         "favorite": "Chargers",
-        "winner": ""
+        "winner": "Chargers",
+        "favorite_won": true
       },
       {
         "matchup": "Saints @ Seahawks",
@@ -109,7 +120,8 @@
           "Seahawks": "-400"
         },
         "favorite": "Seahawks",
-        "winner": ""
+        "winner": "Seahawks",
+        "favorite_won": true
       },
       {
         "matchup": "Cardinals @ 49ers",
@@ -118,7 +130,8 @@
           "49ers": "-125"
         },
         "favorite": "Cardinals",
-        "winner": ""
+        "winner": "49ers",
+        "favorite_won": false
       },
       {
         "matchup": "Cowboys @ Bears",
@@ -127,7 +140,8 @@
           "Bears": "-105"
         },
         "favorite": "Cowboys",
-        "winner": ""
+        "winner": "Bears",
+        "favorite_won": false
       },
       {
         "matchup": "Chiefs @ Giants",
@@ -136,7 +150,8 @@
           "Giants": "+240"
         },
         "favorite": "Chiefs",
-        "winner": ""
+        "winner": "Chiefs",
+        "favorite_won": true
       },
       {
         "matchup": "Lions @ Ravens",
@@ -145,7 +160,8 @@
           "Ravens": "-240"
         },
         "favorite": "Ravens",
-        "winner": ""
+        "winner": "TBD",
+        "favorite_won": false
       }
     ]
   }

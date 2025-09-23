@@ -117,13 +117,13 @@ class MultiSourceScraper:
         
         # Scrape ESPN (if story_id available)
         try:
-            # For week 3, we have the story ID
-            if week == 3:
+            # For week 4, we have the story ID
+            if week == 4:
                 espn_config = UnifiedScrapeConfig(
                     source=DataSource.ESPN,
                     season=season,
                     week=week,
-                    story_ids={week: "46264468"},
+                    story_ids={week: "46303232"},
                     output_file=f"espn_{season}_week{week}.json"
                 )
                 espn_scraper = UnifiedScraper(espn_config)
@@ -157,8 +157,8 @@ def create_draftkings_scraper_config() -> UnifiedScrapeConfig:
     return UnifiedScrapeConfig(
         source=DataSource.DRAFTKINGS,
         season="2025",
-        week=3,  # Current week
-        output_file="data/draftkings_2025_week3.json",
+        week=4,  # Current week
+        output_file="data/draftkings_2025_week4.json",
         headless=True
     )
 
@@ -188,8 +188,8 @@ def main():
     multi_scraper = MultiSourceScraper()
     
     try:
-        all_results = multi_scraper.scrape_all_sources(week=3, season="2025")
-        output_file = "data/combined_odds_2025_week3.json"
+        all_results = multi_scraper.scrape_all_sources(week=4, season="2025")
+        output_file = "data/combined_odds_2025_week4.json"
         
         if multi_scraper.save_combined_results(all_results, output_file):
             logger.info(f"Successfully saved combined results to {output_file}")
